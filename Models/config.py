@@ -35,11 +35,12 @@ class ConfigModel():
 
     EXPLORATION_MAX = 1.0
     EXPLORATION_MIN = 0.12
-    EXPLORATION_DECAY = 0.995
+    EXPLORATION_DECAY = 0.999
 
     BATCH_SIZE = 40
 
-    UPDATE_TARGET_MODEL_EVERY = 1000
+    LEARN_EVERY = 2
+    UPDATE_TARGET_MODEL_EVERY = 2000
 
     def __init__(self, observation_space, action_space):
         self.exploration_rate = self.EXPLORATION_MAX
@@ -62,7 +63,8 @@ class ConfigModel():
         return np.argmax(q_values[0])
     
     def learn(self):
-        if len(self.memory.indecies) < self.BATCH_SIZE:
+        self.learns += 1
+        if len(self.memory.indecies) < self.BATCH_SIZE or self.learns % self.LEARN_EVERY != 0:
             return
         
         batch = random.sample(self.memory.indecies, self.BATCH_SIZE)
@@ -84,6 +86,6 @@ class ConfigModel():
             self.exploration_rate *= self.EXPLORATION_DECAY
             self.exploration_rate = max(self.EXPLORATION_MIN, self.exploration_rate)
         
-        self.learns += 1
+        
         if self.learns % self.UPDATE_TARGET_MODEL_EVERY == 0:
             self.model_target.set_weights(self.model.get_weights())

@@ -3,7 +3,7 @@ from Dataset import BitcoinData
 
 class TradingEnvironment():
 
-    NUM_OBSERVATIONS = 25000
+    NUM_OBSERVATIONS = 15000
 
     # ACTIONS
     ACTION_SELL = -1
@@ -19,14 +19,17 @@ class TradingEnvironment():
     TERMINATION_ENDED_EPOCH = 1
 
     def __init__(
-                    self, bitcoin_data, num_observations=NUM_OBSERVATIONS,
+                    self, bitcoin_data, num_observations=NUM_OBSERVATIONS, parcent_train=0.8,
                     start_time=0, end_time=-1, 
                     stop_loss=0.05, take_profit=0.12, 
-                    percent_termination = 0.4, holding_penalty = 0.01, allowed_holding_steps = 10,
-                    same_action_penalty = 0.05,
+                    percent_termination = 0.6, holding_penalty = 0.025, allowed_holding_steps = 5,
+                    same_action_penalty = 0.1,
                     REWARD_FUNCTION=REWARD_PROFIT
                 ):
         self.bitcoin_data = bitcoin_data
+
+        self.percent_train = parcent_train
+        self.length_train = int(self.bitcoin_data.length * self.percent_train)
 
         self.num_observations = num_observations
         self.start_time = start_time
@@ -34,9 +37,9 @@ class TradingEnvironment():
         self.current_time = self.start_time
 
         self.wallet = (self.ACTION_HOLD, 0)
-        self.min_percent_profit = 1
-        self.percent_profit = 1
-        self.max_percent_profit = 1
+        self.min_percent_profit = 1.0
+        self.percent_profit = 1.0
+        self.max_percent_profit = 1.0
         self.percent_termination = percent_termination
         self.stop_loss = stop_loss
         self.take_profit = take_profit
@@ -57,9 +60,9 @@ class TradingEnvironment():
         self.start_time = self.current_time
         self.end_time = self.start_time + self.num_observations
 
-        self.min_percent_profit = 1
-        self.percent_profit = 1
-        self.max_percent_profit = 1
+        self.min_percent_profit = 1.0
+        self.percent_profit = 1.0
+        self.max_percent_profit = 1.0
 
         self.last_buy_sell_time_action = self.current_time
         self.wallet = (self.ACTION_HOLD, 0)
@@ -67,8 +70,12 @@ class TradingEnvironment():
         return self.get_current_state()
 
     def step(self, action):
+        if self.current_time >= self.length_train:
+            self.current_time = 0
+            return self.reset(), 0.90, True, None
+        
         if self.current_time >= self.end_time:
-            return None, None, True, self.TERMINATION_ENDED_EPOCH
+            return self.get_current_state(), 0.90, True, None
 
         allowed, self.wallet = self.update_wallet(action)
         if self.wallet[0] != self.ACTION_HOLD:
@@ -78,6 +85,8 @@ class TradingEnvironment():
 
         reward = self.reward_function() + self.keep_holding_penalty()
         done = self.check_termination()
+        if done:
+            reward -= 10
 
         if not allowed:
             reward -= self.same_action_penalty
