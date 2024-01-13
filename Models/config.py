@@ -1,30 +1,7 @@
 import numpy as np
 import random
-import time
-from collections import deque
-
-class Memory():
-
-    def __init__(self, memory_size):
-        self.memory_size = memory_size
-        self.states = deque(maxlen=memory_size)
-        self.actions = deque(maxlen=memory_size)
-        self.rewards = deque(maxlen=memory_size)
-        self.next_states = deque(maxlen=memory_size)
-        self.dones = deque(maxlen=memory_size)
-        
-        self.indecies = deque(maxlen=memory_size)
-        self.current_index = 0
-
-    def remember(self, state, action, reward, next_state, done):
-        self.states.append(state)
-        self.actions.append(action)
-        self.rewards.append(reward)
-        self.next_states.append(next_state)
-        self.dones.append(done)
-
-        self.indecies.append(self.current_index)
-        self.current_index += 1
+import os
+from .Memory import Memory
 
 class ConfigModel():
 
@@ -40,18 +17,47 @@ class ConfigModel():
     BATCH_SIZE = 40
 
     LEARN_EVERY = 2
-    UPDATE_TARGET_MODEL_EVERY = 2000
 
-    def __init__(self, observation_space, action_space):
+    MEMORY_FILENAME = "Memory"
+    LAST_VERSIONS_FILENAME = "Last Versions"
+
+    def __init__(self, observation_space, action_space, model_path = "", load_version = -1, load_model_num = -1):
         self.exploration_rate = self.EXPLORATION_MAX
         self.observation_space = observation_space
         self.action_space = action_space
 
         self.memory = Memory(self.MEMORY_SIZE)
 
-        self.learns = 0
         self.model = None
-        self.target_model = None
+        if load_version == -1:
+            self._build_new_version(model_path)
+        else:
+            self._load_version(model_path, load_version, load_model_num)
+        self.model_latest_save = self.get_current_save_model()
+
+        self.learns = 0
+
+    def _build_new_version(self, model_path):
+        self.model_path = os.path.join("Models", "Checkpoint", model_path)
+        if not os.path.exists(self.model_path):
+            os.makedirs(self.model_path)
+
+        self.model_num_save = 0
+        self.model_version = self.get_current_version_model()
+        self.model_path = os.path.join(self.model_path, f"Version {self.model_version}")
+
+        os.makedirs(self.model_path)
+        os.makedirs(os.path.join(self.model_path, self.MEMORY_FILENAME))
+        os.makedirs(os.path.join(self.model_path, self.LAST_VERSIONS_FILENAME))
+
+    def _load_version(self, model_path, load_version, load_model_num):
+        self.model_path = os.path.join("Models", "Checkpoint", model_path, f"Version {load_version}")
+        self.model_version = load_version
+
+        if load_model_num != -1:
+            self.model_num_save = load_model_num
+        else:
+            self.model_num_save = self.get_current_save_model()
 
     def act(self, state):
         if np.random.rand() < self.exploration_rate:
@@ -63,29 +69,49 @@ class ConfigModel():
         return np.argmax(q_values[0])
     
     def learn(self):
-        self.learns += 1
-        if len(self.memory.indecies) < self.BATCH_SIZE or self.learns % self.LEARN_EVERY != 0:
-            return
+        pass
+
+    def save_model(self):
+        if f"Model {self.model_num_save}.keras" in os.listdir(self.model_path):
+            last_model_saved = f"Model {self.model_num_save}.keras"
+            os.rename(
+                os.path.join(self.model_path, last_model_saved), 
+                os.path.join(self.model_path, self.LAST_VERSIONS_FILENAME, last_model_saved)
+            )
         
-        batch = random.sample(self.memory.indecies, self.BATCH_SIZE)
-        states = np.array(self.memory.states)[batch]
-        actions = np.array(self.memory.actions)[batch]
-        rewards = np.array(self.memory.rewards)[batch]
-        next_states = np.array(self.memory.next_states)[batch]
-        dones = np.array(self.memory.dones)[batch]
+        self.model_num_save += 1
+        self.model.save(os.path.join(self.model_path, f"Model {self.model_num_save}.keras"))
 
-        labels = self.model.predict(np.array(states))
-        next_state_values = self.model_target.predict(np.array(next_states))
+        path_to_memory = os.path.join(self.model_path, self.MEMORY_FILENAME)
+        for file in os.listdir(path_to_memory):
+            os.remove(os.path.join(path_to_memory, file))
 
-        for i in range(self.BATCH_SIZE):
-            labels[i][actions[i]] = rewards[i] + self.GAMMA * np.max(next_state_values[i]) * (1 - dones[i])
+        self.memory.save_memory(path_to_memory)
 
-        self.model.fit(np.array(states), labels, batch_size=self.BATCH_SIZE, epochs=1, verbose=0)
+    def get_current_version_model(self):
+        last_version = 0
+        for file in os.listdir(self.model_path):
+            try:
+                file = int(file.split(" ")[1])
+            except:
+                continue
 
-        if self.exploration_rate > self.EXPLORATION_MIN:
-            self.exploration_rate *= self.EXPLORATION_DECAY
-            self.exploration_rate = max(self.EXPLORATION_MIN, self.exploration_rate)
-        
-        
-        if self.learns % self.UPDATE_TARGET_MODEL_EVERY == 0:
-            self.model_target.set_weights(self.model.get_weights())
+            if file > last_version:
+                last_version = file
+
+        return last_version + 1
+    
+    def get_current_save_model(self):
+        last_save = 0
+        for file in os.listdir(self.model_path):
+            try:
+                file = int(file.split(".keras")[0].split(" ")[1])
+            except:
+                continue
+
+            if file > last_save:
+                last_save = file
+
+        return last_save
+
+    

@@ -4,6 +4,7 @@ from Dataset import BitcoinData
 class TradingEnvironment():
 
     NUM_OBSERVATIONS = 15000
+    #NUM_OBSERVATIONS = 100
 
     # ACTIONS
     ACTION_SELL = -1
@@ -18,12 +19,25 @@ class TradingEnvironment():
     TERMINATION_PROFIT_LOSS = 0
     TERMINATION_ENDED_EPOCH = 1
 
+    # STATES
+    STATE_TIME = 0
+    STATE_OPEN = 1
+    STATE_HIGH = 2
+    STATE_LOW = 3
+    STATE_CLOSE = 4
+    STATE_VOLUME = 5
+    STATE_QUOTE_ASSET_VOLUME = 6
+    STATE_PRICE = 7
+    STATE_ACTION_PROFIT_PERCENT = 8
+    STATE_PERCENT_PROFIT = 9
+
     def __init__(
                     self, bitcoin_data, num_observations=NUM_OBSERVATIONS, parcent_train=0.8,
                     start_time=0, end_time=-1, 
                     stop_loss=0.05, take_profit=0.12, 
-                    percent_termination = 0.6, holding_penalty = 0.025, allowed_holding_steps = 5,
-                    same_action_penalty = 0.1,
+                    percent_termination = 0.6, holding_penalty = 0.025, allowed_holding_steps = 2,
+                    holding_action_penalty = 0.01, allowed_holding_action_steps = 50,
+                    same_action_penalty = 0.0,
                     REWARD_FUNCTION=REWARD_PROFIT
                 ):
         self.bitcoin_data = bitcoin_data
@@ -44,9 +58,14 @@ class TradingEnvironment():
         self.stop_loss = stop_loss
         self.take_profit = take_profit
 
-        self.last_buy_sell_time_action = 0
+        self.last_time_action = self.current_time
+        self.last_buy_sell_time_action = self.current_time
+
+        self.holding_action_penalty = holding_action_penalty
         self.holding_penalty = holding_penalty
         self.same_action_penalty = same_action_penalty
+
+        self.allowed_holding_action_steps = allowed_holding_action_steps
         self.allowed_holding_steps = allowed_holding_steps
 
         self.observation_space = self.get_current_state()
@@ -65,6 +84,7 @@ class TradingEnvironment():
         self.max_percent_profit = 1.0
 
         self.last_buy_sell_time_action = self.current_time
+        self.last_time_action = self.current_time
         self.wallet = (self.ACTION_HOLD, 0)
 
         return self.get_current_state()
@@ -77,13 +97,13 @@ class TradingEnvironment():
         if self.current_time >= self.end_time:
             return self.get_current_state(), 0.90, True, None
 
+        reward = self.get_reward(action)
         allowed, self.wallet = self.update_wallet(action)
         if self.wallet[0] != self.ACTION_HOLD:
             self.last_buy_sell_time_action = self.current_time
 
         self.current_time += 1
 
-        reward = self.reward_function() + self.keep_holding_penalty()
         done = self.check_termination()
         if done:
             reward -= 10
@@ -115,6 +135,11 @@ class TradingEnvironment():
         penalty = self.holding_penalty * ((self.current_time - self.allowed_holding_steps) - self.last_buy_sell_time_action)
 
         return -max(0, penalty)
+    
+    def keep_holding_action_penalty(self):
+        penalty = self.holding_action_penalty * ((self.current_time - self.allowed_holding_action_steps) - self.last_time_action)
+
+        return -max(0, penalty)
 
     def check_termination(self):
         if self.percent_profit <= self.percent_termination:
@@ -130,20 +155,34 @@ class TradingEnvironment():
         
         return False
     
+    def get_reward(self, action):
+        reward = self.keep_holding_penalty() + self.keep_holding_action_penalty()
+        
+        if action == self.ACTION_BUY and self.wallet[0] == self.ACTION_SELL:
+            reward += self.reward_function()
+        elif action == self.ACTION_SELL and self.wallet[0] == self.ACTION_BUY:
+            reward += self.reward_function()
+        
+        return reward
+
     def update_wallet(self, action):
         if action == self.ACTION_BUY:
             if self.wallet[0] == self.ACTION_SELL:
                 self.update_percent_profit(self.percent_profit + self.get_partial_profit_percent())
+                self.last_time_action = self.current_time
                 return True, (self.ACTION_HOLD, 0)
             elif self.wallet[0] == self.ACTION_HOLD:
+                self.last_time_action = self.current_time
                 return True, (self.ACTION_BUY, self.current_price())
             
             return False, self.wallet
         elif action == self.ACTION_SELL:
             if self.wallet[0] == self.ACTION_BUY:
                 self.update_percent_profit(self.percent_profit + self.get_partial_profit_percent())
+                self.last_time_action = self.current_time
                 return True, (self.ACTION_HOLD, 0)
             elif self.wallet[0] == self.ACTION_HOLD:
+                self.last_time_action = self.current_time
                 return True, (self.ACTION_SELL, self.current_price())
             
             return False, self.wallet
