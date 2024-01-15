@@ -43,7 +43,7 @@ def plot_action_profit_percent(states, action, reward, dones, start_time=0, end_
 
         percent_profit.append(states[i][STATE_PERCENT_PROFIT])
         action_profit_percent.append(states[i][STATE_ACTION_PROFIT_PERCENT])
-        actions.append(current_action_state)
+        actions.append(action[i] - 1)
         rewards.append(reward[i])
 
         last_action = current_action_state
@@ -54,5 +54,5 @@ def plot_action_profit_percent(states, action, reward, dones, start_time=0, end_
     plt.plot(actions, label="Actions")
     plt.plot(rewards, label="Rewards")
     plt.legend()
-    plt.show()
+    plt.show(True)
 

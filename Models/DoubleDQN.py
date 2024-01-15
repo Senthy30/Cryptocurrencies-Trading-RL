@@ -1,6 +1,7 @@
 import random
 import os
 import numpy as np
+import time
 from .config import ConfigModel
 from .Memory import Memory
 from keras.models import Sequential, clone_model, load_model
@@ -9,7 +10,7 @@ from keras.optimizers import Adam
 
 class DoubleDQN(ConfigModel):
 
-    UPDATE_TARGET_MODEL_EVERY = 20
+    UPDATE_TARGET_MODEL_EVERY = 1000
 
     def __init__(self, observation_space, action_space, model_path="", load_version=-1, load_model_num=-1):
         super().__init__(observation_space=observation_space, action_space=action_space, model_path=model_path, load_version=load_version, load_model_num=load_model_num)
@@ -38,29 +39,27 @@ class DoubleDQN(ConfigModel):
         else:
             model = load_model(os.path.join(self.model_path, self.LAST_VERSIONS_FILENAME, f"Model {self.model_num_save}.keras"))
 
-        self.memory = Memory(self.MEMORY_SIZE, load_path=os.path.join(self.model_path, self.MEMORY_FILENAME))
+        self.memory = Memory(self.MEMORY_SIZE, load_path=os.path.join(self.model_path, self.MEMORY_FILENAME), observation_space=self.observation_space)
         
         return model
     
     def learn(self):
         self.learns += 1
-        if len(self.memory.indecies) < self.BATCH_SIZE or self.learns % self.LEARN_EVERY != 0:
+        if self.memory.current_index < self.BATCH_SIZE:
             return
         
-        batch = random.sample(self.memory.indecies, self.BATCH_SIZE)
-        states = np.array(self.memory.states)[batch]
-        actions = np.array(self.memory.actions)[batch]
-        rewards = np.array(self.memory.rewards)[batch]
-        next_states = np.array(self.memory.next_states)[batch]
-        dones = np.array(self.memory.dones)[batch]
+        if self.learns % self.LEARN_EVERY != 0:
+            return
+        
+        states, actions, rewards, next_states, dones = self.memory.get_batch(self.BATCH_SIZE)
 
-        labels = self.model.predict(np.array(states))
-        next_state_values = self.model_target.predict(np.array(next_states))
+        labels = self.model.predict(states)
+        next_state_values = self.model_target.predict(next_states)
 
         for i in range(self.BATCH_SIZE):
-            labels[i][actions[i]] = rewards[i] + self.GAMMA * np.max(next_state_values[i]) * (1 - dones[i])
+            labels[i][int(actions[i])] = rewards[i] + self.GAMMA * np.max(next_state_values[i]) * (1 - dones[i])
 
-        self.model.fit(np.array(states), labels, batch_size=self.BATCH_SIZE, epochs=1, verbose=0)
+        self.model.fit(states, labels, batch_size=self.BATCH_SIZE, epochs=self.EPOCHS, verbose=0)
 
         if self.exploration_rate > self.EXPLORATION_MIN:
             self.exploration_rate *= self.EXPLORATION_DECAY

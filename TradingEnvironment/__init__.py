@@ -3,7 +3,7 @@ from Dataset import BitcoinData
 
 class TradingEnvironment():
 
-    NUM_OBSERVATIONS = 15000
+    NUM_OBSERVATIONS = 1000
     #NUM_OBSERVATIONS = 100
 
     # ACTIONS
@@ -21,23 +21,25 @@ class TradingEnvironment():
 
     # STATES
     STATE_TIME = 0
-    STATE_OPEN = 1
-    STATE_HIGH = 2
-    STATE_LOW = 3
-    STATE_CLOSE = 4
-    STATE_VOLUME = 5
-    STATE_QUOTE_ASSET_VOLUME = 6
-    STATE_PRICE = 7
-    STATE_ACTION_PROFIT_PERCENT = 8
-    STATE_PERCENT_PROFIT = 9
+    STATE_LAST_ACTION_TIME = 1
+    STATE_OPEN = 2
+    STATE_HIGH = 3
+    STATE_LOW = 4
+    STATE_CLOSE = 5
+    STATE_VOLUME = 6
+    STATE_QUOTE_ASSET_VOLUME = 7
+    STATE_PRICE = 8
+    STATE_ACTION_PROFIT_PERCENT = 9
+    STATE_WALLET_ACTION = 10
+    STATE_PERCENT_PROFIT = 11
 
     def __init__(
                     self, bitcoin_data, num_observations=NUM_OBSERVATIONS, parcent_train=0.8,
                     start_time=0, end_time=-1, 
                     stop_loss=0.05, take_profit=0.12, 
-                    percent_termination = 0.6, holding_penalty = 0.025, allowed_holding_steps = 2,
-                    holding_action_penalty = 0.01, allowed_holding_action_steps = 50,
-                    same_action_penalty = 0.0,
+                    percent_termination = 0.85, holding_penalty = 0.025, allowed_holding_steps = 5,
+                    holding_action_penalty = 0.02, allowed_holding_action_steps = 40,
+                    same_action_penalty = 0.2, reward_open_action = 0.1, reward_transaction = 0.5,
                     REWARD_FUNCTION=REWARD_PROFIT
                 ):
         self.bitcoin_data = bitcoin_data
@@ -64,6 +66,8 @@ class TradingEnvironment():
         self.holding_action_penalty = holding_action_penalty
         self.holding_penalty = holding_penalty
         self.same_action_penalty = same_action_penalty
+        self.reward_open_action = reward_open_action
+        self.reward_transaction = reward_transaction
 
         self.allowed_holding_action_steps = allowed_holding_action_steps
         self.allowed_holding_steps = allowed_holding_steps
@@ -92,10 +96,10 @@ class TradingEnvironment():
     def step(self, action):
         if self.current_time >= self.length_train:
             self.current_time = 0
-            return self.reset(), 0.90, True, None
+            return self.reset(), self.get_termination_reward(), True, None
         
         if self.current_time >= self.end_time:
-            return self.get_current_state(), 0.90, True, None
+            return self.get_current_state(), self.get_termination_reward(), True, None
 
         reward = self.get_reward(action)
         allowed, self.wallet = self.update_wallet(action)
@@ -156,14 +160,41 @@ class TradingEnvironment():
         return False
     
     def get_reward(self, action):
-        reward = self.keep_holding_penalty() + self.keep_holding_action_penalty()
+        reward = self.keep_holding_penalty() + self.keep_holding_action_penalty() + self.get_transaction_reward(action)
         
         if action == self.ACTION_BUY and self.wallet[0] == self.ACTION_SELL:
             reward += self.reward_function()
         elif action == self.ACTION_SELL and self.wallet[0] == self.ACTION_BUY:
             reward += self.reward_function()
+        elif action != self.ACTION_HOLD and self.wallet[0] == self.ACTION_HOLD:
+            reward += self.reward_open_action
         
         return reward
+    
+    def get_termination_reward(self):
+        x_profit_percent = self.percent_profit - 1
+        reward = x_profit_percent * 30
+        if x_profit_percent > 0:
+            reward += 1.5
+        elif x_profit_percent < 0:
+            reward -= 1.5
+
+        return reward
+
+    def get_transaction_reward(self, action):
+        current_price = self.current_price()
+        next_price = self.next_price()
+        
+        if self.wallet[0] == self.ACTION_HOLD:
+            next_profit = (next_price - current_price) * action
+        else:
+            next_profit = (next_price - current_price) * self.wallet[0]
+
+        if next_profit > 0:
+            return self.reward_transaction
+        elif next_profit < 0:
+            return -self.reward_transaction
+        return 0
 
     def update_wallet(self, action):
         if action == self.ACTION_BUY:
@@ -199,6 +230,9 @@ class TradingEnvironment():
 
     def current_price(self):
         return self.bitcoin_data.get_price_at(self.current_time)
+    
+    def next_price(self):
+        return self.bitcoin_data.get_price_at(self.current_time + 1)
 
     def get_action_profit_percent(self):
         return self.get_partial_profit_percent() * self.percent_profit
@@ -223,14 +257,16 @@ class TradingEnvironment():
     def get_current_state(self):
         return np.array([
             self.current_time,
+            self.last_time_action,
             self.bitcoin_data.get_open_at(self.current_time),
             self.bitcoin_data.get_high_at(self.current_time),
             self.bitcoin_data.get_low_at(self.current_time),
             self.bitcoin_data.get_close_at(self.current_time),
-            self.bitcoin_data.get_volume_at(self.current_time),
-            self.bitcoin_data.get_quote_asset_volume_at(self.current_time),
+            self.bitcoin_data.get_volume_btc_at(self.current_time),
+            self.bitcoin_data.get_volume_usd_at(self.current_time),
             self.bitcoin_data.get_price_at(self.current_time),
             self.get_partial_profit_percent(),
+            self.wallet[0],
             self.percent_profit
         ])
     

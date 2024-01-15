@@ -11,10 +11,11 @@ class ConfigModel():
     MEMORY_SIZE = 1000000
 
     EXPLORATION_MAX = 1.0
-    EXPLORATION_MIN = 0.12
-    EXPLORATION_DECAY = 0.999
+    EXPLORATION_MIN = 0.001
+    EXPLORATION_DECAY = 0.99
 
-    BATCH_SIZE = 40
+    BATCH_SIZE = 64
+    EPOCHS = 40
 
     LEARN_EVERY = 2
 
@@ -26,7 +27,7 @@ class ConfigModel():
         self.observation_space = observation_space
         self.action_space = action_space
 
-        self.memory = Memory(self.MEMORY_SIZE)
+        self.memory = Memory(self.MEMORY_SIZE, observation_space=self.observation_space)
 
         self.model = None
         if load_version == -1:
@@ -36,6 +37,8 @@ class ConfigModel():
         self.model_latest_save = self.get_current_save_model()
 
         self.learns = 0
+
+        self.actions_taked_by_itself = [0, 0, 0]
 
     def _build_new_version(self, model_path):
         self.model_path = os.path.join("Models", "Checkpoint", model_path)
@@ -66,7 +69,10 @@ class ConfigModel():
     
     def act_greedy(self, state):
         q_values = self.model.predict(state)
-        return np.argmax(q_values[0])
+        action = np.argmax(q_values[0])
+        self.actions_taked_by_itself[action] += 1
+
+        return action
     
     def learn(self):
         pass
