@@ -5,12 +5,12 @@ import time
 from .config import ConfigModel
 from .Memory import Memory
 from keras.models import Sequential, clone_model, load_model
-from keras.layers import Dense, LeakyReLU
+from keras.layers import Dense, LeakyReLU, ReLU
 from keras.optimizers import Adam
 
 class DoubleDQN(ConfigModel):
 
-    UPDATE_TARGET_MODEL_EVERY = 1000
+    UPDATE_TARGET_MODEL_EVERY = 3000
 
     def __init__(self, observation_space, action_space, model_path="", load_version=-1, load_model_num=-1):
         super().__init__(observation_space=observation_space, action_space=action_space, model_path=model_path, load_version=load_version, load_model_num=load_model_num)
@@ -25,8 +25,8 @@ class DoubleDQN(ConfigModel):
     def _build_model(self):
         model = Sequential()
         
-        model.add(Dense(128, input_shape=(self.observation_space,), activation=LeakyReLU()))
-        model.add(Dense(128, activation=LeakyReLU()))
+        model.add(Dense(512, input_shape=(self.observation_space,), activation=ReLU()))
+        model.add(Dense(256, activation=ReLU()))
         model.add(Dense(self.action_space, activation="linear"))
 
         model.compile(loss="mse", optimizer=Adam(learning_rate=self.LEARNING_RATE))

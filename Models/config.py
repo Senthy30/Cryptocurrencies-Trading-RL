@@ -5,19 +5,19 @@ from .Memory import Memory
 
 class ConfigModel():
 
-    GAMMA = 0.98
-    LEARNING_RATE = 0.001
+    GAMMA = 0.99
+    LEARNING_RATE = 2e-4
 
     MEMORY_SIZE = 1000000
 
     EXPLORATION_MAX = 1.0
-    EXPLORATION_MIN = 0.001
-    EXPLORATION_DECAY = 0.99
+    EXPLORATION_MIN = 0.01
+    EXPLORATION_DECAY = 0.999
 
     BATCH_SIZE = 64
-    EPOCHS = 40
+    EPOCHS = 50
 
-    LEARN_EVERY = 2
+    LEARN_EVERY = 1
 
     MEMORY_FILENAME = "Memory"
     LAST_VERSIONS_FILENAME = "Last Versions"
