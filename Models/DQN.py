@@ -8,7 +8,7 @@ from keras.models import Sequential, clone_model, load_model
 from keras.layers import Dense, LeakyReLU, ReLU
 from keras.optimizers import Adam
 
-class DoubleDQN(ConfigModel):
+class DQN(ConfigModel):
 
     UPDATE_TARGET_MODEL_EVERY = 3000
 
