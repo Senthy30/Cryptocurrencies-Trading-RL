@@ -36,7 +36,7 @@ class TradingEnvironment():
     STATE_WALLET_ACTION = 10
     STATE_PERCENT_PROFIT = 11
 
-    def _init_(
+    def __init__(
                     self, bitcoin_data, num_observations=NUM_OBSERVATIONS, parcent_train=0.8,
                     start_time=0, end_time=-1, 
                     stop_loss=0.05, take_profit=0.12, 
