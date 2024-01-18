@@ -11,8 +11,8 @@ class TradingEnvironment():
     ACTION_HOLD = 0
     ACTION_BUY = 1
 
-    MULTIPLIER_HOLD = 70
-    MULTIPLIER_BUY_SELL = 10
+    MULTIPLIER_HOLD = 90
+    MULTIPLIER_BUY_SELL = 100
 
     # REWARDS FUNCTIONS
     REWARD_PROFIT = 0
@@ -36,13 +36,13 @@ class TradingEnvironment():
     STATE_WALLET_ACTION = 10
     STATE_PERCENT_PROFIT = 11
 
-    def __init__(
+    def _init_(
                     self, bitcoin_data, num_observations=NUM_OBSERVATIONS, parcent_train=0.8,
                     start_time=0, end_time=-1, 
                     stop_loss=0.05, take_profit=0.12, 
-                    percent_termination = 0.85, holding_penalty = 0.2, allowed_holding_steps = 0,
-                    holding_action_penalty = 0.2, allowed_holding_action_steps = 25,
-                    same_action_penalty = 0.05, reward_open_action = 0.0, reward_transaction = 0.2,
+                    percent_termination = 0.85, holding_penalty = 0.02, allowed_holding_steps = 0,
+                    holding_action_penalty = 0.02, allowed_holding_action_steps = 25,
+                    same_action_penalty = 0.02, reward_open_action = 0.0, reward_transaction = 0.2,
                     REWARD_FUNCTION=REWARD_PROFIT
                 ):
         self.bitcoin_data = bitcoin_data
@@ -123,6 +123,8 @@ class TradingEnvironment():
         self.current_time += 1
 
         done = self.check_termination()
+        if done:
+            reward -= 6
 
         if not allowed:
             reward -= self.same_action_penalty
@@ -150,13 +152,11 @@ class TradingEnvironment():
 
     def keep_holding_penalty(self):
         penalty = self.holding_penalty * ((self.current_time - self.allowed_holding_steps) - self.last_buy_sell_time_action)
-        penalty = min(penalty, self.holding_penalty)
 
         return -max(0, penalty)
     
     def keep_holding_action_penalty(self):
         penalty = self.holding_action_penalty * ((self.current_time - self.allowed_holding_action_steps) - self.last_time_action)
-        penalty = min(penalty, self.holding_action_penalty)
 
         return -max(0, penalty)
 
@@ -191,6 +191,10 @@ class TradingEnvironment():
     def get_termination_reward(self):
         x_profit_percent = self.percent_profit - 1
         reward = x_profit_percent * 30
+        if x_profit_percent > 0:
+            reward += 1.5
+        elif x_profit_percent < 0:
+            reward -= 1.5
 
         return reward
 
@@ -210,18 +214,16 @@ class TradingEnvironment():
             next_percent_profit = current_percent_profit + next_profit_value / self.current_price()
 
             if self.wallet[0] == self.ACTION_BUY:
-                # if action == self.ACTION_HOLD or action == self.ACTION_BUY:
-                reward = (next_percent_profit - current_percent_profit) * self.MULTIPLIER_HOLD
-                
-                if action == self.ACTION_SELL:
-                    reward += self.get_partial_profit_percent() * self.MULTIPLIER_BUY_SELL
+                if action == self.ACTION_HOLD or action == self.ACTION_BUY:
+                    reward = (next_percent_profit - current_percent_profit) * self.MULTIPLIER_HOLD
+                elif action == self.ACTION_SELL:
+                    reward = self.get_partial_profit_percent() * self.MULTIPLIER_BUY_SELL
 
             elif self.wallet[0] == self.ACTION_SELL:
-                # if action == self.ACTION_HOLD or action == self.ACTION_SELL:
-                reward = (next_percent_profit - current_percent_profit) * self.MULTIPLIER_HOLD
-                
-                if action == self.ACTION_BUY:
-                    reward += self.get_partial_profit_percent() * self.MULTIPLIER_BUY_SELL
+                if action == self.ACTION_HOLD or action == self.ACTION_SELL:
+                    reward = (next_percent_profit - current_percent_profit) * self.MULTIPLIER_HOLD
+                elif action == self.ACTION_BUY:
+                    reward = self.get_partial_profit_percent() * self.MULTIPLIER_BUY_SELL
  
         return reward
 
@@ -333,4 +335,3 @@ class TradingEnvironment():
     
     def get_observation_space(self):
         return self.observation_space.shape[0]
-    
