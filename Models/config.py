@@ -6,13 +6,13 @@ from .Memory import Memory
 class ConfigModel():
 
     GAMMA = 0.99
-    LEARNING_RATE = 2e-4
+    LEARNING_RATE = 1e-4
 
     MEMORY_SIZE = 1000000
 
     EXPLORATION_MAX = 1.0
-    EXPLORATION_MIN = 0.01
-    EXPLORATION_DECAY = 0.999
+    EXPLORATION_MIN = 0.10
+    EXPLORATION_DECAY = 0.9995
 
     BATCH_SIZE = 64
     EPOCHS = 50
@@ -22,7 +22,8 @@ class ConfigModel():
     MEMORY_FILENAME = "Memory"
     LAST_VERSIONS_FILENAME = "Last Versions"
 
-    def __init__(self, observation_space, action_space, model_path = "", load_version = -1, load_model_num = -1):
+    def __init__(self, environment, observation_space, action_space, model_path = "", load_version = -1, load_model_num = -1):
+        self.environment = environment
         self.exploration_rate = self.EXPLORATION_MAX
         self.observation_space = observation_space
         self.action_space = action_space
@@ -38,7 +39,7 @@ class ConfigModel():
 
         self.learns = 0
 
-        self.actions_taked_by_itself = [0, 0, 0]
+        self.actions_taked_by_itself = [0, 0, 0, 0]
 
     def _build_new_version(self, model_path):
         self.model_path = os.path.join("Models", "Checkpoint", model_path)
@@ -63,16 +64,10 @@ class ConfigModel():
             self.model_num_save = self.get_current_save_model()
 
     def act(self, state):
-        if np.random.rand() < self.exploration_rate:
-            return random.randrange(self.action_space)
-        return self.act_greedy(state)
+        pass
     
     def act_greedy(self, state):
-        q_values = self.model.predict(state)
-        action = np.argmax(q_values[0])
-        self.actions_taked_by_itself[action] += 1
-
-        return action
+        pass
     
     def learn(self):
         pass

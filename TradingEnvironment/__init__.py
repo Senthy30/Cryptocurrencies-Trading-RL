@@ -1,9 +1,186 @@
 import numpy as np
+import gym
+from enum import Enum
 from Dataset import BitcoinData
+
+class ACTION(Enum):
+    HOLD = 0
+    LONG = 1
+    SHORT = 2
+    CLOSE = 3
+
+def get_legal_actions(position):
+    if position == ACTION.HOLD:
+        return [ACTION.HOLD.value, ACTION.LONG.value, ACTION.SHORT.value]
+    else:
+        return [ACTION.HOLD.value, ACTION.CLOSE.value]
+
+class TradingEnvironmentV2(gym.Env):
+    NUM_OBSERVATIONS = 1000
+
+    def __init__(self, bitcoin_data, num_observations=NUM_OBSERVATIONS, train_data = 0.8, start_time=0, end_time=-1, profit_end=0.8):
+        super(TradingEnvironmentV2, self).__init__()
+
+        self.bitcoin_data = bitcoin_data
+        self.num_observations = num_observations
+        self.train_data = train_data
+        self.start_time = start_time
+        self.end_time = end_time if end_time != -1 else self.bitcoin_data.length
+        self.current_time = self.start_time
+        self.profit_end = profit_end
+
+        self.position_open_price = self.current_price()
+        self.position = ACTION.HOLD
+        self.profit_gain = 0.0
+        self.observation_space = self.get_current_state().shape[0]
+
+        self.action_space = gym.spaces.Discrete(n=len(ACTION))
+        self.legal_actions = list(range(len(ACTION)))
+
+    def reset(self):
+        self.profit = 1.0
+        self.min_profit = self.profit
+        self.max_profit = self.profit
+        self.reward = 0.0
+        self.step_profit_gain = 0.0
+        self.profit_gain = 0.0
+
+        self.position = ACTION.HOLD
+        self.position_open_price = self.current_price()
+        self.legal_actions = get_legal_actions(self.position)
+        self.action = None
+
+        self.start_time = self.current_time
+        self.end_time = self.start_time + self.num_observations
+        self.current_time += 1
+
+        return self.get_current_state()
+
+    def step(self, action):
+        current_price = self.current_price()
+        next_price = self.next_price()
+
+        if action == ACTION.HOLD.value:
+            if self.position == ACTION.HOLD or self.position == ACTION.CLOSE:
+                self.step_profit_gain = 0.0
+            elif self.position == ACTION.LONG:
+                self.step_profit_gain = min(self.profit, 1.0) * (next_price / current_price - 1)
+            elif self.position == ACTION.SHORT:
+                self.step_profit_gain = min(self.profit, 1.0) * (current_price / next_price - 1)
+            
+            self.reward = self.step_profit_gain
+            self.profit_gain += self.step_profit_gain
+
+            if self.position == ACTION.HOLD or self.position == ACTION.CLOSE:
+                self.reward = -0.05
+
+        elif action == ACTION.LONG.value:
+            wrong_input = False
+            if self.position == ACTION.HOLD:
+                self.position = ACTION.LONG
+                self.position_open_price = current_price
+            else:
+                wrong_input = True
+
+            self.step_profit_gain = min(self.profit, 1.0) * (next_price / current_price - 1)
+            self.reward = self.step_profit_gain if not wrong_input else min(0, self.step_profit_gain)
+            self.profit_gain += self.step_profit_gain
+
+        elif action == ACTION.SHORT.value:
+            wrong_input = False
+            if self.position == ACTION.HOLD:
+                self.position = ACTION.SHORT
+                self.position_open_price = current_price
+            else:
+                wrong_input = True
+
+            self.step_profit_gain = min(self.profit, 1.0) * (current_price / next_price - 1)
+            self.reward = self.step_profit_gain if not wrong_input else min(0, self.step_profit_gain)
+            self.profit_gain += self.step_profit_gain
+
+        elif action == ACTION.CLOSE.value:
+            wrong_input = False
+            self.reward = 0.0
+            if self.position == ACTION.LONG:
+                self.position = ACTION.HOLD
+                profit_close_gain = min(self.profit, 1.0) * (current_price / self.position_open_price - 1)
+                self.reward = min(self.profit, 1.0) * (current_price / next_price - 1)
+                self.profit += profit_close_gain
+
+            elif self.position == ACTION.SHORT:
+                self.position = ACTION.HOLD
+                profit_close_gain = min(self.profit, 1.0) * (self.position_open_price / current_price - 1)
+                self.reward = min(self.profit, 1.0) * (next_price / current_price - 1)
+                self.profit += profit_close_gain
+
+            else:
+                self.position = ACTION.HOLD
+                wrong_input = True
+
+            self.step_profit_gain = 0.0
+            self.profit_gain += self.step_profit_gain
+
+        self.reward *= 100
+        self.legal_actions = get_legal_actions(self.position)
+
+        if self.current_time >= self.end_time:
+            if self.position == ACTION.LONG:
+                self.position = ACTION.HOLD
+                self.profit += min(self.profit, 1.0) * (current_price / self.position_open_price - 1)
+            
+            elif self.position == ACTION.SHORT:
+                self.position = ACTION.HOLD
+                self.profit += min(self.profit, 1.0) * (self.position_open_price / current_price - 1)
+
+            self.reward += (self.profit - 1) * 20
+            done = True
+        else:
+            self.current_time += 1
+            done = False 
+
+        self.min_profit = min(self.min_profit, self.profit)
+        self.max_profit = max(self.max_profit, self.profit)
+
+        return self.get_current_state(), self.reward, done, None
+
+    def current_price(self):
+        return self.bitcoin_data.get_price_at(self.current_time)
+    
+    def next_price(self):
+        return self.bitcoin_data.get_price_at(self.current_time + 1)
+    
+    def get_observation_space(self):
+        return self.observation_space
+    
+    def get_action_space(self):
+        return self.action_space.n
+
+    def get_current_state(self):
+        return np.array([
+            self.current_time,
+            self.position_open_price, # added
+            self.bitcoin_data.get_price_at(self.current_time),
+            self.bitcoin_data.get_open_at(self.current_time),
+            self.bitcoin_data.get_high_at(self.current_time),
+            self.bitcoin_data.get_low_at(self.current_time),
+            self.bitcoin_data.get_close_at(self.current_time),
+            self.bitcoin_data.get_volume_btc_at(self.current_time),
+            self.bitcoin_data.get_volume_usd_at(self.current_time),
+            self.position.value,
+            self.profit_gain
+        ])
+    
+class STATE(Enum):
+    TIME = 0
+    PRICE = 1
+    VOLUME_BTC = 2
+    VOLUME_USD = 3
+    POSITION = 4
+    PROFIT_GAIN = 5
 
 class TradingEnvironment():
 
-    NUM_OBSERVATIONS = 1000
+    NUM_OBSERVATIONS = 8500
     #NUM_OBSERVATIONS = 100
 
     # ACTIONS
@@ -11,8 +188,8 @@ class TradingEnvironment():
     ACTION_HOLD = 0
     ACTION_BUY = 1
 
-    MULTIPLIER_HOLD = 70
-    MULTIPLIER_BUY_SELL = 10
+    MULTIPLIER_HOLD = 90
+    MULTIPLIER_BUY_SELL = 100
 
     # REWARDS FUNCTIONS
     REWARD_PROFIT = 0
@@ -40,9 +217,9 @@ class TradingEnvironment():
                     self, bitcoin_data, num_observations=NUM_OBSERVATIONS, parcent_train=0.8,
                     start_time=0, end_time=-1, 
                     stop_loss=0.05, take_profit=0.12, 
-                    percent_termination = 0.85, holding_penalty = 0.2, allowed_holding_steps = 0,
-                    holding_action_penalty = 0.2, allowed_holding_action_steps = 25,
-                    same_action_penalty = 0.05, reward_open_action = 0.0, reward_transaction = 0.2,
+                    percent_termination = 0.85, holding_penalty = 0.02, allowed_holding_steps = 0,
+                    holding_action_penalty = 0.02, allowed_holding_action_steps = 25,
+                    same_action_penalty = 0.02, reward_open_action = 0.0, reward_transaction = 0.2,
                     REWARD_FUNCTION=REWARD_PROFIT
                 ):
         self.bitcoin_data = bitcoin_data
@@ -123,6 +300,8 @@ class TradingEnvironment():
         self.current_time += 1
 
         done = self.check_termination()
+        if done:
+            reward -= 6
 
         if not allowed:
             reward -= self.same_action_penalty
@@ -150,13 +329,11 @@ class TradingEnvironment():
 
     def keep_holding_penalty(self):
         penalty = self.holding_penalty * ((self.current_time - self.allowed_holding_steps) - self.last_buy_sell_time_action)
-        penalty = min(penalty, self.holding_penalty)
 
         return -max(0, penalty)
     
     def keep_holding_action_penalty(self):
         penalty = self.holding_action_penalty * ((self.current_time - self.allowed_holding_action_steps) - self.last_time_action)
-        penalty = min(penalty, self.holding_action_penalty)
 
         return -max(0, penalty)
 
@@ -191,6 +368,10 @@ class TradingEnvironment():
     def get_termination_reward(self):
         x_profit_percent = self.percent_profit - 1
         reward = x_profit_percent * 30
+        if x_profit_percent > 0:
+            reward += 1.5
+        elif x_profit_percent < 0:
+            reward -= 1.5
 
         return reward
 
@@ -210,18 +391,16 @@ class TradingEnvironment():
             next_percent_profit = current_percent_profit + next_profit_value / self.current_price()
 
             if self.wallet[0] == self.ACTION_BUY:
-                # if action == self.ACTION_HOLD or action == self.ACTION_BUY:
-                reward = (next_percent_profit - current_percent_profit) * self.MULTIPLIER_HOLD
-                
-                if action == self.ACTION_SELL:
-                    reward += self.get_partial_profit_percent() * self.MULTIPLIER_BUY_SELL
+                if action == self.ACTION_HOLD or action == self.ACTION_BUY:
+                    reward = (next_percent_profit - current_percent_profit) * self.MULTIPLIER_HOLD
+                elif action == self.ACTION_SELL:
+                    reward = self.get_partial_profit_percent() * self.MULTIPLIER_BUY_SELL
 
             elif self.wallet[0] == self.ACTION_SELL:
-                # if action == self.ACTION_HOLD or action == self.ACTION_SELL:
-                reward = (next_percent_profit - current_percent_profit) * self.MULTIPLIER_HOLD
-                
-                if action == self.ACTION_BUY:
-                    reward += self.get_partial_profit_percent() * self.MULTIPLIER_BUY_SELL
+                if action == self.ACTION_HOLD or action == self.ACTION_SELL:
+                    reward = (next_percent_profit - current_percent_profit) * self.MULTIPLIER_HOLD
+                elif action == self.ACTION_BUY:
+                    reward = self.get_partial_profit_percent() * self.MULTIPLIER_BUY_SELL
  
         return reward
 
@@ -333,4 +512,3 @@ class TradingEnvironment():
     
     def get_observation_space(self):
         return self.observation_space.shape[0]
-    
