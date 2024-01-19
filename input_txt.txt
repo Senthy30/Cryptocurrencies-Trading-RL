@@ -1,0 +1,2444 @@
+Reading dataset...
+Dataset read!
+Dataset length: 1051198
+Step 0:
+    Percent Capital: 1.0000, interval: [1.0000, 1.0000]
+    Action taked by itseft: SELL: 0, HOLD: 1, BUY: 0
+Step 100:
+    Percent Capital: 1.0075, interval: [1.0000, 1.0075]
+    Action taked by itseft: SELL: 19, HOLD: 72, BUY: 9
+Step 200:
+    Percent Capital: 1.0048, interval: [1.0000, 1.0086]
+    Action taked by itseft: SELL: 12, HOLD: 71, BUY: 17
+Step 300:
+    Percent Capital: 0.9996, interval: [0.9996, 1.0086]
+    Action taked by itseft: SELL: 23, HOLD: 54, BUY: 23
+Step 400:
+    Percent Capital: 0.9965, interval: [0.9919, 1.0086]
+    Action taked by itseft: SELL: 27, HOLD: 52, BUY: 21
+Step 500:
+    Percent Capital: 1.0001, interval: [0.9919, 1.0086]
+    Action taked by itseft: SELL: 24, HOLD: 67, BUY: 9
+Step 600:
+    Percent Capital: 1.0066, interval: [0.9919, 1.0086]
+    Action taked by itseft: SELL: 22, HOLD: 64, BUY: 14
+Step 700:
+    Percent Capital: 1.0068, interval: [0.9919, 1.0086]
+    Action taked by itseft: SELL: 20, HOLD: 67, BUY: 13
+Step 800:
+    Percent Capital: 1.0109, interval: [0.9919, 1.0139]
+    Action taked by itseft: SELL: 27, HOLD: 26, BUY: 47
+Step 900:
+    Percent Capital: 1.0111, interval: [0.9919, 1.0160]
+    Action taked by itseft: SELL: 26, HOLD: 32, BUY: 42
+Step 1000:
+    Percent Capital: 1.0115, interval: [0.9919, 1.0160]
+    Action taked by itseft: SELL: 26, HOLD: 61, BUY: 13
+Step 1100:
+    Percent Capital: 0.9991, interval: [0.9919, 1.0160]
+    Action taked by itseft: SELL: 25, HOLD: 28, BUY: 47
+Step 1200:
+    Percent Capital: 0.9948, interval: [0.9919, 1.0160]
+    Action taked by itseft: SELL: 22, HOLD: 59, BUY: 19
+Step 1300:
+    Percent Capital: 0.9996, interval: [0.9919, 1.0160]
+    Action taked by itseft: SELL: 20, HOLD: 72, BUY: 8
+Step 1400:
+    Percent Capital: 1.0100, interval: [0.9919, 1.0160]
+    Action taked by itseft: SELL: 13, HOLD: 69, BUY: 18
+Step 1500:
+    Percent Capital: 1.0240, interval: [0.9919, 1.0240]
+    Action taked by itseft: SELL: 22, HOLD: 60, BUY: 18
+Step 1600:
+    Percent Capital: 1.0229, interval: [0.9919, 1.0243]
+    Action taked by itseft: SELL: 16, HOLD: 72, BUY: 12
+Step 1700:
+    Percent Capital: 1.0208, interval: [0.9919, 1.0254]
+    Action taked by itseft: SELL: 9, HOLD: 83, BUY: 8
+Step 1800:
+    Percent Capital: 1.0207, interval: [0.9919, 1.0254]
+    Action taked by itseft: SELL: 17, HOLD: 75, BUY: 8
+Step 1900:
+    Percent Capital: 1.0246, interval: [0.9919, 1.0254]
+    Action taked by itseft: SELL: 16, HOLD: 50, BUY: 34
+Step 2000:
+    Percent Capital: 1.0224, interval: [0.9919, 1.0254]
+    Action taked by itseft: SELL: 12, HOLD: 75, BUY: 13
+Step 2100:
+    Percent Capital: 1.0247, interval: [0.9919, 1.0258]
+    Action taked by itseft: SELL: 18, HOLD: 59, BUY: 23
+Step 2200:
+    Percent Capital: 1.0270, interval: [0.9919, 1.0276]
+    Action taked by itseft: SELL: 29, HOLD: 53, BUY: 18
+Step 2300:
+    Percent Capital: 1.0252, interval: [0.9919, 1.0276]
+    Action taked by itseft: SELL: 6, HOLD: 89, BUY: 5
+Step 2400:
+    Percent Capital: 1.0265, interval: [0.9919, 1.0276]
+    Action taked by itseft: SELL: 5, HOLD: 89, BUY: 6
+Step 2500:
+    Percent Capital: 1.0268, interval: [0.9919, 1.0299]
+    Action taked by itseft: SELL: 18, HOLD: 67, BUY: 15
+Step 2600:
+    Percent Capital: 1.0241, interval: [0.9919, 1.0299]
+    Action taked by itseft: SELL: 9, HOLD: 85, BUY: 6
+Step 2700:
+    Percent Capital: 1.0352, interval: [0.9919, 1.0352]
+    Action taked by itseft: SELL: 13, HOLD: 74, BUY: 13
+Step 2800:
+    Percent Capital: 1.0331, interval: [0.9919, 1.0355]
+    Action taked by itseft: SELL: 8, HOLD: 88, BUY: 4
+Step 2900:
+    Percent Capital: 1.0361, interval: [0.9919, 1.0372]
+    Action taked by itseft: SELL: 14, HOLD: 71, BUY: 15
+Step 3000:
+    Percent Capital: 1.0410, interval: [0.9919, 1.0446]
+    Action taked by itseft: SELL: 14, HOLD: 79, BUY: 7
+Step 3100:
+    Percent Capital: 1.0538, interval: [0.9919, 1.0540]
+    Action taked by itseft: SELL: 12, HOLD: 77, BUY: 11
+Step 3200:
+    Percent Capital: 1.0480, interval: [0.9919, 1.0540]
+    Action taked by itseft: SELL: 15, HOLD: 76, BUY: 9
+Step 3300:
+    Percent Capital: 1.0498, interval: [0.9919, 1.0540]
+    Action taked by itseft: SELL: 10, HOLD: 80, BUY: 10
+Step 3400:
+    Percent Capital: 1.0506, interval: [0.9919, 1.0540]
+    Action taked by itseft: SELL: 11, HOLD: 81, BUY: 8
+Step 3500:
+    Percent Capital: 1.0583, interval: [0.9919, 1.0583]
+    Action taked by itseft: SELL: 19, HOLD: 68, BUY: 13
+Step 3600:
+    Percent Capital: 1.0534, interval: [0.9919, 1.0583]
+    Action taked by itseft: SELL: 7, HOLD: 88, BUY: 5
+Step 3700:
+    Percent Capital: 1.0486, interval: [0.9919, 1.0583]
+    Action taked by itseft: SELL: 18, HOLD: 76, BUY: 6
+Step 3800:
+    Percent Capital: 1.0454, interval: [0.9919, 1.0583]
+    Action taked by itseft: SELL: 12, HOLD: 86, BUY: 2
+Step 3900:
+    Percent Capital: 1.0482, interval: [0.9919, 1.0583]
+    Action taked by itseft: SELL: 7, HOLD: 87, BUY: 6
+Step 4000:
+    Percent Capital: 1.0451, interval: [0.9919, 1.0583]
+    Action taked by itseft: SELL: 17, HOLD: 75, BUY: 8
+Step 4100:
+    Percent Capital: 1.0512, interval: [0.9919, 1.0583]
+    Action taked by itseft: SELL: 14, HOLD: 81, BUY: 5
+Step 4200:
+    Percent Capital: 1.0519, interval: [0.9919, 1.0583]
+    Action taked by itseft: SELL: 19, HOLD: 67, BUY: 14
+Step 4300:
+    Percent Capital: 1.0570, interval: [0.9919, 1.0583]
+    Action taked by itseft: SELL: 14, HOLD: 62, BUY: 24
+Step 4400:
+    Percent Capital: 1.0591, interval: [0.9919, 1.0591]
+    Action taked by itseft: SELL: 7, HOLD: 77, BUY: 16
+Step 4500:
+    Percent Capital: 1.0494, interval: [0.9919, 1.0591]
+    Action taked by itseft: SELL: 16, HOLD: 36, BUY: 48
+Step 4600:
+    Percent Capital: 1.0515, interval: [0.9919, 1.0591]
+    Action taked by itseft: SELL: 16, HOLD: 69, BUY: 15
+Step 4700:
+    Percent Capital: 1.0493, interval: [0.9919, 1.0591]
+    Action taked by itseft: SELL: 17, HOLD: 72, BUY: 11
+Step 4800:
+    Percent Capital: 1.0501, interval: [0.9919, 1.0591]
+    Action taked by itseft: SELL: 12, HOLD: 73, BUY: 15
+Step 4900:
+    Percent Capital: 1.0420, interval: [0.9919, 1.0591]
+    Action taked by itseft: SELL: 15, HOLD: 76, BUY: 9
+Step 5000:
+    Percent Capital: 1.0384, interval: [0.9919, 1.0591]
+    Action taked by itseft: SELL: 17, HOLD: 78, BUY: 5
+Step 5100:
+    Percent Capital: 1.0424, interval: [0.9919, 1.0591]
+    Action taked by itseft: SELL: 22, HOLD: 66, BUY: 12
+Step 5200:
+    Percent Capital: 1.0458, interval: [0.9919, 1.0591]
+    Action taked by itseft: SELL: 21, HOLD: 50, BUY: 29
+Step 5300:
+    Percent Capital: 1.0442, interval: [0.9919, 1.0591]
+    Action taked by itseft: SELL: 13, HOLD: 69, BUY: 18
+Step 5400:
+    Percent Capital: 1.0429, interval: [0.9919, 1.0591]
+    Action taked by itseft: SELL: 13, HOLD: 78, BUY: 9
+Step 5500:
+    Percent Capital: 1.0390, interval: [0.9919, 1.0591]
+    Action taked by itseft: SELL: 30, HOLD: 44, BUY: 26
+Step 5600:
+    Percent Capital: 1.0454, interval: [0.9919, 1.0591]
+    Action taked by itseft: SELL: 40, HOLD: 42, BUY: 18
+Step 5700:
+    Percent Capital: 1.0491, interval: [0.9919, 1.0591]
+    Action taked by itseft: SELL: 21, HOLD: 67, BUY: 12
+Step 5800:
+    Percent Capital: 1.0443, interval: [0.9919, 1.0591]
+    Action taked by itseft: SELL: 23, HOLD: 63, BUY: 14
+Step 5900:
+    Percent Capital: 1.0468, interval: [0.9919, 1.0591]
+    Action taked by itseft: SELL: 25, HOLD: 66, BUY: 9
+Step 6000:
+    Percent Capital: 1.0448, interval: [0.9919, 1.0591]
+    Action taked by itseft: SELL: 16, HOLD: 65, BUY: 19
+Step 6100:
+    Percent Capital: 1.0460, interval: [0.9919, 1.0591]
+    Action taked by itseft: SELL: 24, HOLD: 55, BUY: 21
+Step 6200:
+    Percent Capital: 1.0446, interval: [0.9919, 1.0591]
+    Action taked by itseft: SELL: 24, HOLD: 62, BUY: 14
+Step 6300:
+    Percent Capital: 1.0393, interval: [0.9919, 1.0591]
+    Action taked by itseft: SELL: 25, HOLD: 65, BUY: 10
+Step 6400:
+    Percent Capital: 1.0513, interval: [0.9919, 1.0591]
+    Action taked by itseft: SELL: 24, HOLD: 43, BUY: 33
+Step 6500:
+    Percent Capital: 1.0686, interval: [0.9919, 1.0721]
+    Action taked by itseft: SELL: 12, HOLD: 5, BUY: 83
+Step 6600:
+    Percent Capital: 1.0727, interval: [0.9919, 1.0744]
+    Action taked by itseft: SELL: 25, HOLD: 26, BUY: 49
+Step 6700:
+    Percent Capital: 1.0890, interval: [0.9919, 1.0890]
+    Action taked by itseft: SELL: 29, HOLD: 35, BUY: 36
+Step 6800:
+    Percent Capital: 1.0853, interval: [0.9919, 1.0929]
+    Action taked by itseft: SELL: 30, HOLD: 53, BUY: 17
+Step 6900:
+    Percent Capital: 1.0821, interval: [0.9919, 1.0929]
+    Action taked by itseft: SELL: 21, HOLD: 45, BUY: 34
+Step 7000:
+    Percent Capital: 1.0877, interval: [0.9919, 1.0929]
+    Action taked by itseft: SELL: 36, HOLD: 39, BUY: 25
+Step 7100:
+    Percent Capital: 1.0955, interval: [0.9919, 1.0956]
+    Action taked by itseft: SELL: 24, HOLD: 62, BUY: 14
+Step 7200:
+    Percent Capital: 1.0983, interval: [0.9919, 1.0983]
+    Action taked by itseft: SELL: 30, HOLD: 53, BUY: 17
+Step 7300:
+    Percent Capital: 1.0964, interval: [0.9919, 1.0984]
+    Action taked by itseft: SELL: 22, HOLD: 72, BUY: 6
+Step 7400:
+    Percent Capital: 1.0987, interval: [0.9919, 1.0996]
+    Action taked by itseft: SELL: 23, HOLD: 56, BUY: 21
+Step 7500:
+    Percent Capital: 1.0948, interval: [0.9919, 1.1007]
+    Action taked by itseft: SELL: 18, HOLD: 39, BUY: 43
+Step 7600:
+    Percent Capital: 1.0907, interval: [0.9919, 1.1007]
+    Action taked by itseft: SELL: 22, HOLD: 43, BUY: 35
+Step 7700:
+    Percent Capital: 1.0831, interval: [0.9919, 1.1007]
+    Action taked by itseft: SELL: 18, HOLD: 15, BUY: 67
+Step 7800:
+    Percent Capital: 1.0806, interval: [0.9919, 1.1007]
+    Action taked by itseft: SELL: 37, HOLD: 41, BUY: 22
+Step 7900:
+    Percent Capital: 1.0885, interval: [0.9919, 1.1007]
+    Action taked by itseft: SELL: 36, HOLD: 33, BUY: 31
+Step 8000:
+    Percent Capital: 1.0873, interval: [0.9919, 1.1007]
+    Action taked by itseft: SELL: 33, HOLD: 48, BUY: 19
+Step 8100:
+    Percent Capital: 1.0915, interval: [0.9919, 1.1007]
+    Action taked by itseft: SELL: 30, HOLD: 52, BUY: 18
+Step 8200:
+    Percent Capital: 1.0939, interval: [0.9919, 1.1007]
+    Action taked by itseft: SELL: 19, HOLD: 70, BUY: 11
+Step 8300:
+    Percent Capital: 1.0879, interval: [0.9919, 1.1007]
+    Action taked by itseft: SELL: 23, HOLD: 57, BUY: 20
+Step 8400:
+    Percent Capital: 1.0915, interval: [0.9919, 1.1007]
+    Action taked by itseft: SELL: 15, HOLD: 71, BUY: 14
+Episode 0/10 ended
+
+Step 0:
+    Percent Capital: 1.0000, interval: [1.0000, 1.0000]
+    Action taked by itseft: SELL: 24, HOLD: 67, BUY: 9
+Step 100:
+    Percent Capital: 1.0004, interval: [0.9987, 1.0010]
+    Action taked by itseft: SELL: 14, HOLD: 76, BUY: 10
+Step 200:
+    Percent Capital: 0.9964, interval: [0.9964, 1.0010]
+    Action taked by itseft: SELL: 13, HOLD: 86, BUY: 1
+Step 300:
+    Percent Capital: 0.9968, interval: [0.9952, 1.0010]
+    Action taked by itseft: SELL: 16, HOLD: 72, BUY: 12
+Step 400:
+    Percent Capital: 0.9959, interval: [0.9942, 1.0010]
+    Action taked by itseft: SELL: 17, HOLD: 57, BUY: 26
+Step 500:
+    Percent Capital: 0.9929, interval: [0.9918, 1.0010]
+    Action taked by itseft: SELL: 34, HOLD: 42, BUY: 24
+Step 600:
+    Percent Capital: 0.9953, interval: [0.9906, 1.0010]
+    Action taked by itseft: SELL: 26, HOLD: 55, BUY: 19
+Step 700:
+    Percent Capital: 0.9974, interval: [0.9906, 1.0010]
+    Action taked by itseft: SELL: 31, HOLD: 35, BUY: 34
+Step 800:
+    Percent Capital: 0.9990, interval: [0.9906, 1.0010]
+    Action taked by itseft: SELL: 44, HOLD: 23, BUY: 33
+Step 900:
+    Percent Capital: 1.0112, interval: [0.9906, 1.0112]
+    Action taked by itseft: SELL: 29, HOLD: 14, BUY: 57
+Step 1000:
+    Percent Capital: 1.0146, interval: [0.9906, 1.0166]
+    Action taked by itseft: SELL: 27, HOLD: 35, BUY: 38
+Step 1100:
+    Percent Capital: 1.0119, interval: [0.9906, 1.0166]
+    Action taked by itseft: SELL: 41, HOLD: 41, BUY: 18
+Step 1200:
+    Percent Capital: 1.0208, interval: [0.9906, 1.0215]
+    Action taked by itseft: SELL: 31, HOLD: 22, BUY: 47
+Step 1300:
+    Percent Capital: 1.0202, interval: [0.9906, 1.0215]
+    Action taked by itseft: SELL: 33, HOLD: 52, BUY: 15
+Step 1400:
+    Percent Capital: 1.0170, interval: [0.9906, 1.0215]
+    Action taked by itseft: SELL: 35, HOLD: 44, BUY: 21
+Step 1500:
+    Percent Capital: 1.0149, interval: [0.9906, 1.0215]
+    Action taked by itseft: SELL: 32, HOLD: 36, BUY: 32
+Step 1600:
+    Percent Capital: 1.0166, interval: [0.9906, 1.0215]
+    Action taked by itseft: SELL: 24, HOLD: 63, BUY: 13
+Step 1700:
+    Percent Capital: 1.0176, interval: [0.9906, 1.0215]
+    Action taked by itseft: SELL: 26, HOLD: 56, BUY: 18
+Step 1800:
+    Percent Capital: 1.0076, interval: [0.9906, 1.0215]
+    Action taked by itseft: SELL: 33, HOLD: 22, BUY: 45
+Step 1900:
+    Percent Capital: 1.0130, interval: [0.9906, 1.0215]
+    Action taked by itseft: SELL: 37, HOLD: 4, BUY: 59
+Step 2000:
+    Percent Capital: 1.0181, interval: [0.9906, 1.0215]
+    Action taked by itseft: SELL: 33, HOLD: 23, BUY: 44
+Step 2100:
+    Percent Capital: 1.0173, interval: [0.9906, 1.0215]
+    Action taked by itseft: SELL: 36, HOLD: 16, BUY: 48
+Step 2200:
+    Percent Capital: 1.0243, interval: [0.9906, 1.0247]
+    Action taked by itseft: SELL: 25, HOLD: 16, BUY: 59
+Step 2300:
+    Percent Capital: 1.0149, interval: [0.9906, 1.0273]
+    Action taked by itseft: SELL: 13, HOLD: 0, BUY: 87
+Step 2400:
+    Percent Capital: 1.0278, interval: [0.9906, 1.0278]
+    Action taked by itseft: SELL: 42, HOLD: 14, BUY: 44
+Step 2500:
+    Percent Capital: 1.0338, interval: [0.9906, 1.0341]
+    Action taked by itseft: SELL: 38, HOLD: 21, BUY: 41
+Step 2600:
+    Percent Capital: 1.0379, interval: [0.9906, 1.0379]
+    Action taked by itseft: SELL: 30, HOLD: 13, BUY: 57
+Step 2700:
+    Percent Capital: 1.0430, interval: [0.9906, 1.0514]
+    Action taked by itseft: SELL: 20, HOLD: 21, BUY: 59
+Step 2800:
+    Percent Capital: 1.0337, interval: [0.9906, 1.0514]
+    Action taked by itseft: SELL: 38, HOLD: 45, BUY: 17
+Step 2900:
+    Percent Capital: 1.0371, interval: [0.9906, 1.0514]
+    Action taked by itseft: SELL: 25, HOLD: 50, BUY: 25
+Step 3000:
+    Percent Capital: 1.0499, interval: [0.9906, 1.0514]
+    Action taked by itseft: SELL: 26, HOLD: 34, BUY: 40
+Step 3100:
+    Percent Capital: 1.0361, interval: [0.9906, 1.0554]
+    Action taked by itseft: SELL: 14, HOLD: 10, BUY: 76
+Step 3200:
+    Percent Capital: 1.0310, interval: [0.9906, 1.0554]
+    Action taked by itseft: SELL: 29, HOLD: 27, BUY: 44
+Step 3300:
+    Percent Capital: 1.0455, interval: [0.9906, 1.0554]
+    Action taked by itseft: SELL: 23, HOLD: 12, BUY: 65
+Step 3400:
+    Percent Capital: 1.0361, interval: [0.9906, 1.0554]
+    Action taked by itseft: SELL: 32, HOLD: 39, BUY: 29
+Step 3500:
+    Percent Capital: 1.0449, interval: [0.9906, 1.0554]
+    Action taked by itseft: SELL: 36, HOLD: 29, BUY: 35
+Step 3600:
+    Percent Capital: 1.0602, interval: [0.9906, 1.0602]
+    Action taked by itseft: SELL: 26, HOLD: 32, BUY: 42
+Step 3700:
+    Percent Capital: 1.0498, interval: [0.9906, 1.0602]
+    Action taked by itseft: SELL: 28, HOLD: 26, BUY: 46
+Step 3800:
+    Percent Capital: 1.0498, interval: [0.9906, 1.0602]
+    Action taked by itseft: SELL: 22, HOLD: 14, BUY: 64
+Step 3900:
+    Percent Capital: 1.0341, interval: [0.9906, 1.0602]
+    Action taked by itseft: SELL: 22, HOLD: 23, BUY: 55
+Step 4000:
+    Percent Capital: 1.0299, interval: [0.9906, 1.0602]
+    Action taked by itseft: SELL: 19, HOLD: 58, BUY: 23
+Step 4100:
+    Percent Capital: 1.0229, interval: [0.9906, 1.0602]
+    Action taked by itseft: SELL: 16, HOLD: 38, BUY: 46
+Step 4200:
+    Percent Capital: 1.0296, interval: [0.9906, 1.0602]
+    Action taked by itseft: SELL: 28, HOLD: 48, BUY: 24
+Step 4300:
+    Percent Capital: 1.0263, interval: [0.9906, 1.0602]
+    Action taked by itseft: SELL: 29, HOLD: 52, BUY: 19
+Step 4400:
+    Percent Capital: 1.0340, interval: [0.9906, 1.0602]
+    Action taked by itseft: SELL: 18, HOLD: 53, BUY: 29
+Step 4500:
+    Percent Capital: 1.0502, interval: [0.9906, 1.0602]
+    Action taked by itseft: SELL: 20, HOLD: 65, BUY: 15
+Step 4600:
+    Percent Capital: 1.0552, interval: [0.9906, 1.0602]
+    Action taked by itseft: SELL: 40, HOLD: 33, BUY: 27
+Step 4700:
+    Percent Capital: 1.0602, interval: [0.9906, 1.0608]
+    Action taked by itseft: SELL: 38, HOLD: 42, BUY: 20
+Step 4800:
+    Percent Capital: 1.0367, interval: [0.9906, 1.0608]
+    Action taked by itseft: SELL: 30, HOLD: 52, BUY: 18
+Step 4900:
+    Percent Capital: 1.0295, interval: [0.9906, 1.0608]
+    Action taked by itseft: SELL: 22, HOLD: 41, BUY: 37
+Step 5000:
+    Percent Capital: 1.0417, interval: [0.9906, 1.0608]
+    Action taked by itseft: SELL: 26, HOLD: 56, BUY: 18
+Step 5100:
+    Percent Capital: 1.0225, interval: [0.9906, 1.0608]
+    Action taked by itseft: SELL: 28, HOLD: 53, BUY: 19
+Step 5200:
+    Percent Capital: 1.0434, interval: [0.9906, 1.0608]
+    Action taked by itseft: SELL: 24, HOLD: 20, BUY: 56
+Step 5300:
+    Percent Capital: 1.0489, interval: [0.9906, 1.0608]
+    Action taked by itseft: SELL: 30, HOLD: 35, BUY: 35
+Step 5400:
+    Percent Capital: 1.0596, interval: [0.9906, 1.0608]
+    Action taked by itseft: SELL: 18, HOLD: 61, BUY: 21
+Step 5500:
+    Percent Capital: 1.0643, interval: [0.9906, 1.0643]
+    Action taked by itseft: SELL: 23, HOLD: 40, BUY: 37
+Step 5600:
+    Percent Capital: 1.0748, interval: [0.9906, 1.0802]
+    Action taked by itseft: SELL: 28, HOLD: 50, BUY: 22
+Step 5700:
+    Percent Capital: 1.0987, interval: [0.9906, 1.0987]
+    Action taked by itseft: SELL: 26, HOLD: 36, BUY: 38
+Step 5800:
+    Percent Capital: 1.0911, interval: [0.9906, 1.1007]
+    Action taked by itseft: SELL: 27, HOLD: 45, BUY: 28
+Step 5900:
+    Percent Capital: 1.0954, interval: [0.9906, 1.1007]
+    Action taked by itseft: SELL: 30, HOLD: 56, BUY: 14
+Step 6000:
+    Percent Capital: 1.0904, interval: [0.9906, 1.1007]
+    Action taked by itseft: SELL: 33, HOLD: 60, BUY: 7
+Step 6100:
+    Percent Capital: 1.1009, interval: [0.9906, 1.1009]
+    Action taked by itseft: SELL: 11, HOLD: 78, BUY: 11
+Step 6200:
+    Percent Capital: 1.0788, interval: [0.9906, 1.1013]
+    Action taked by itseft: SELL: 26, HOLD: 18, BUY: 56
+Step 6300:
+    Percent Capital: 1.0554, interval: [0.9906, 1.1013]
+    Action taked by itseft: SELL: 17, HOLD: 3, BUY: 80
+Step 6400:
+    Percent Capital: 1.0687, interval: [0.9906, 1.1013]
+    Action taked by itseft: SELL: 27, HOLD: 15, BUY: 58
+Step 6500:
+    Percent Capital: 1.0774, interval: [0.9906, 1.1013]
+    Action taked by itseft: SELL: 17, HOLD: 15, BUY: 68
+Step 6600:
+    Percent Capital: 1.0755, interval: [0.9906, 1.1013]
+    Action taked by itseft: SELL: 20, HOLD: 21, BUY: 59
+Step 6700:
+    Percent Capital: 1.0746, interval: [0.9906, 1.1013]
+    Action taked by itseft: SELL: 15, HOLD: 10, BUY: 75
+Step 6800:
+    Percent Capital: 1.0604, interval: [0.9906, 1.1013]
+    Action taked by itseft: SELL: 8, HOLD: 1, BUY: 91
+Step 6900:
+    Percent Capital: 1.0843, interval: [0.9906, 1.1013]
+    Action taked by itseft: SELL: 10, HOLD: 3, BUY: 87
+Step 7000:
+    Percent Capital: 1.0814, interval: [0.9906, 1.1013]
+    Action taked by itseft: SELL: 24, HOLD: 15, BUY: 61
+Step 7100:
+    Percent Capital: 1.0742, interval: [0.9906, 1.1013]
+    Action taked by itseft: SELL: 34, HOLD: 25, BUY: 41
+Step 7200:
+    Percent Capital: 1.0622, interval: [0.9906, 1.1013]
+    Action taked by itseft: SELL: 29, HOLD: 35, BUY: 36
+Step 7300:
+    Percent Capital: 1.0658, interval: [0.9906, 1.1013]
+    Action taked by itseft: SELL: 29, HOLD: 22, BUY: 49
+Step 7400:
+    Percent Capital: 1.0659, interval: [0.9906, 1.1013]
+    Action taked by itseft: SELL: 20, HOLD: 23, BUY: 57
+Step 7500:
+    Percent Capital: 1.0441, interval: [0.9906, 1.1013]
+    Action taked by itseft: SELL: 26, HOLD: 29, BUY: 45
+Step 7600:
+    Percent Capital: 1.0421, interval: [0.9906, 1.1013]
+    Action taked by itseft: SELL: 17, HOLD: 32, BUY: 51
+Step 7700:
+    Percent Capital: 1.0589, interval: [0.9906, 1.1013]
+    Action taked by itseft: SELL: 30, HOLD: 15, BUY: 55
+Step 7800:
+    Percent Capital: 1.0572, interval: [0.9906, 1.1013]
+    Action taked by itseft: SELL: 27, HOLD: 28, BUY: 45
+Step 7900:
+    Percent Capital: 1.0787, interval: [0.9906, 1.1013]
+    Action taked by itseft: SELL: 27, HOLD: 31, BUY: 42
+Step 8000:
+    Percent Capital: 1.0692, interval: [0.9906, 1.1013]
+    Action taked by itseft: SELL: 14, HOLD: 19, BUY: 67
+Step 8100:
+    Percent Capital: 1.0721, interval: [0.9906, 1.1013]
+    Action taked by itseft: SELL: 23, HOLD: 14, BUY: 63
+Step 8200:
+    Percent Capital: 1.0646, interval: [0.9906, 1.1013]
+    Action taked by itseft: SELL: 21, HOLD: 20, BUY: 59
+Step 8300:
+    Percent Capital: 1.0585, interval: [0.9906, 1.1013]
+    Action taked by itseft: SELL: 40, HOLD: 25, BUY: 35
+Step 8400:
+    Percent Capital: 1.0769, interval: [0.9906, 1.1013]
+    Action taked by itseft: SELL: 26, HOLD: 23, BUY: 51
+Episode 1/10 ended
+
+Step 0:
+    Percent Capital: 1.0000, interval: [1.0000, 1.0000]
+    Action taked by itseft: SELL: 24, HOLD: 40, BUY: 36
+Step 100:
+    Percent Capital: 1.0115, interval: [0.9988, 1.0134]
+    Action taked by itseft: SELL: 20, HOLD: 46, BUY: 34
+Step 200:
+    Percent Capital: 1.0029, interval: [0.9945, 1.0134]
+    Action taked by itseft: SELL: 21, HOLD: 40, BUY: 39
+Step 300:
+    Percent Capital: 1.0103, interval: [0.9945, 1.0134]
+    Action taked by itseft: SELL: 24, HOLD: 37, BUY: 39
+Step 400:
+    Percent Capital: 1.0097, interval: [0.9945, 1.0159]
+    Action taked by itseft: SELL: 31, HOLD: 48, BUY: 21
+Step 500:
+    Percent Capital: 0.9999, interval: [0.9945, 1.0159]
+    Action taked by itseft: SELL: 22, HOLD: 37, BUY: 41
+Step 600:
+    Percent Capital: 1.0143, interval: [0.9945, 1.0181]
+    Action taked by itseft: SELL: 27, HOLD: 21, BUY: 52
+Step 700:
+    Percent Capital: 1.0254, interval: [0.9945, 1.0254]
+    Action taked by itseft: SELL: 24, HOLD: 15, BUY: 61
+Step 800:
+    Percent Capital: 1.0239, interval: [0.9945, 1.0310]
+    Action taked by itseft: SELL: 31, HOLD: 13, BUY: 56
+Step 900:
+    Percent Capital: 1.0247, interval: [0.9945, 1.0312]
+    Action taked by itseft: SELL: 29, HOLD: 12, BUY: 59
+Step 1000:
+    Percent Capital: 1.0206, interval: [0.9945, 1.0312]
+    Action taked by itseft: SELL: 34, HOLD: 11, BUY: 55
+Step 1100:
+    Percent Capital: 1.0187, interval: [0.9945, 1.0312]
+    Action taked by itseft: SELL: 22, HOLD: 34, BUY: 44
+Step 1200:
+    Percent Capital: 1.0258, interval: [0.9945, 1.0312]
+    Action taked by itseft: SELL: 23, HOLD: 37, BUY: 40
+Step 1300:
+    Percent Capital: 1.0111, interval: [0.9945, 1.0312]
+    Action taked by itseft: SELL: 30, HOLD: 43, BUY: 27
+Step 1400:
+    Percent Capital: 1.0286, interval: [0.9945, 1.0312]
+    Action taked by itseft: SELL: 26, HOLD: 53, BUY: 21
+Step 1500:
+    Percent Capital: 1.0175, interval: [0.9945, 1.0312]
+    Action taked by itseft: SELL: 28, HOLD: 45, BUY: 27
+Step 1600:
+    Percent Capital: 1.0102, interval: [0.9945, 1.0312]
+    Action taked by itseft: SELL: 20, HOLD: 71, BUY: 9
+Step 1700:
+    Percent Capital: 1.0203, interval: [0.9945, 1.0312]
+    Action taked by itseft: SELL: 19, HOLD: 49, BUY: 32
+Step 1800:
+    Percent Capital: 1.0116, interval: [0.9945, 1.0312]
+    Action taked by itseft: SELL: 18, HOLD: 66, BUY: 16
+Step 1900:
+    Percent Capital: 1.0036, interval: [0.9945, 1.0312]
+    Action taked by itseft: SELL: 11, HOLD: 74, BUY: 15
+Step 2000:
+    Percent Capital: 1.0079, interval: [0.9945, 1.0312]
+    Action taked by itseft: SELL: 21, HOLD: 56, BUY: 23
+Step 2100:
+    Percent Capital: 1.0044, interval: [0.9945, 1.0312]
+    Action taked by itseft: SELL: 24, HOLD: 59, BUY: 17
+Step 2200:
+    Percent Capital: 1.0132, interval: [0.9945, 1.0312]
+    Action taked by itseft: SELL: 29, HOLD: 35, BUY: 36
+Step 2300:
+    Percent Capital: 1.0183, interval: [0.9945, 1.0312]
+    Action taked by itseft: SELL: 22, HOLD: 44, BUY: 34
+Step 2400:
+    Percent Capital: 1.0210, interval: [0.9945, 1.0312]
+    Action taked by itseft: SELL: 19, HOLD: 33, BUY: 48
+Step 2500:
+    Percent Capital: 1.0247, interval: [0.9945, 1.0312]
+    Action taked by itseft: SELL: 30, HOLD: 44, BUY: 26
+Step 2600:
+    Percent Capital: 1.0269, interval: [0.9945, 1.0312]
+    Action taked by itseft: SELL: 35, HOLD: 41, BUY: 24
+Step 2700:
+    Percent Capital: 1.0260, interval: [0.9945, 1.0312]
+    Action taked by itseft: SELL: 27, HOLD: 52, BUY: 21
+Step 2800:
+    Percent Capital: 1.0291, interval: [0.9945, 1.0316]
+    Action taked by itseft: SELL: 25, HOLD: 51, BUY: 24
+Step 2900:
+    Percent Capital: 1.0389, interval: [0.9945, 1.0410]
+    Action taked by itseft: SELL: 19, HOLD: 57, BUY: 24
+Step 3000:
+    Percent Capital: 1.0416, interval: [0.9945, 1.0431]
+    Action taked by itseft: SELL: 8, HOLD: 87, BUY: 5
+Step 3100:
+    Percent Capital: 1.0415, interval: [0.9945, 1.0431]
+    Action taked by itseft: SELL: 19, HOLD: 70, BUY: 11
+Step 3200:
+    Percent Capital: 1.0426, interval: [0.9945, 1.0431]
+    Action taked by itseft: SELL: 21, HOLD: 72, BUY: 7
+Step 3300:
+    Percent Capital: 1.0439, interval: [0.9945, 1.0454]
+    Action taked by itseft: SELL: 7, HOLD: 86, BUY: 7
+Step 3400:
+    Percent Capital: 1.0469, interval: [0.9945, 1.0469]
+    Action taked by itseft: SELL: 11, HOLD: 84, BUY: 5
+Step 3500:
+    Percent Capital: 1.0491, interval: [0.9945, 1.0511]
+    Action taked by itseft: SELL: 18, HOLD: 59, BUY: 23
+Step 3600:
+    Percent Capital: 1.0554, interval: [0.9945, 1.0601]
+    Action taked by itseft: SELL: 17, HOLD: 56, BUY: 27
+Step 3700:
+    Percent Capital: 1.0614, interval: [0.9945, 1.0629]
+    Action taked by itseft: SELL: 21, HOLD: 67, BUY: 12
+Step 3800:
+    Percent Capital: 1.0588, interval: [0.9945, 1.0629]
+    Action taked by itseft: SELL: 20, HOLD: 72, BUY: 8
+Step 3900:
+    Percent Capital: 1.0036, interval: [0.9945, 1.0629]
+    Action taked by itseft: SELL: 2, HOLD: 2, BUY: 96
+Step 4000:
+    Percent Capital: 1.0219, interval: [0.9945, 1.0629]
+    Action taked by itseft: SELL: 6, HOLD: 4, BUY: 90
+Step 4100:
+    Percent Capital: 1.0196, interval: [0.9945, 1.0629]
+    Action taked by itseft: SELL: 32, HOLD: 15, BUY: 53
+Step 4200:
+    Percent Capital: 0.9951, interval: [0.9945, 1.0629]
+    Action taked by itseft: SELL: 21, HOLD: 23, BUY: 56
+Step 4300:
+    Percent Capital: 1.0022, interval: [0.9945, 1.0629]
+    Action taked by itseft: SELL: 18, HOLD: 7, BUY: 75
+Step 4400:
+    Percent Capital: 1.0478, interval: [0.9945, 1.0629]
+    Action taked by itseft: SELL: 19, HOLD: 20, BUY: 61
+Step 4500:
+    Percent Capital: 1.0607, interval: [0.9945, 1.0629]
+    Action taked by itseft: SELL: 31, HOLD: 38, BUY: 31
+Step 4600:
+    Percent Capital: 1.0671, interval: [0.9945, 1.0737]
+    Action taked by itseft: SELL: 20, HOLD: 46, BUY: 34
+Step 4700:
+    Percent Capital: 1.0750, interval: [0.9945, 1.0750]
+    Action taked by itseft: SELL: 12, HOLD: 73, BUY: 15
+Step 4800:
+    Percent Capital: 1.0685, interval: [0.9945, 1.0758]
+    Action taked by itseft: SELL: 16, HOLD: 66, BUY: 18
+Step 4900:
+    Percent Capital: 1.0698, interval: [0.9945, 1.0758]
+    Action taked by itseft: SELL: 22, HOLD: 61, BUY: 17
+Step 5000:
+    Percent Capital: 1.0701, interval: [0.9945, 1.0758]
+    Action taked by itseft: SELL: 11, HOLD: 81, BUY: 8
+Step 5100:
+    Percent Capital: 1.0721, interval: [0.9945, 1.0758]
+    Action taked by itseft: SELL: 21, HOLD: 61, BUY: 18
+Step 5200:
+    Percent Capital: 1.0789, interval: [0.9945, 1.0789]
+    Action taked by itseft: SELL: 25, HOLD: 55, BUY: 20
+Step 5300:
+    Percent Capital: 1.0825, interval: [0.9945, 1.0825]
+    Action taked by itseft: SELL: 36, HOLD: 33, BUY: 31
+Step 5400:
+    Percent Capital: 1.0812, interval: [0.9945, 1.0829]
+    Action taked by itseft: SELL: 30, HOLD: 50, BUY: 20
+Step 5500:
+    Percent Capital: 1.0828, interval: [0.9945, 1.0836]
+    Action taked by itseft: SELL: 24, HOLD: 54, BUY: 22
+Step 5600:
+    Percent Capital: 1.0873, interval: [0.9945, 1.0919]
+    Action taked by itseft: SELL: 25, HOLD: 47, BUY: 28
+Step 5700:
+    Percent Capital: 1.1052, interval: [0.9945, 1.1052]
+    Action taked by itseft: SELL: 21, HOLD: 55, BUY: 24
+Step 5800:
+    Percent Capital: 1.1025, interval: [0.9945, 1.1083]
+    Action taked by itseft: SELL: 13, HOLD: 77, BUY: 10
+Step 5900:
+    Percent Capital: 1.0999, interval: [0.9945, 1.1083]
+    Action taked by itseft: SELL: 9, HOLD: 87, BUY: 4
+Step 6000:
+    Percent Capital: 1.1081, interval: [0.9945, 1.1099]
+    Action taked by itseft: SELL: 10, HOLD: 79, BUY: 11
+Step 6100:
+    Percent Capital: 1.0936, interval: [0.9945, 1.1099]
+    Action taked by itseft: SELL: 16, HOLD: 62, BUY: 22
+Step 6200:
+    Percent Capital: 1.0810, interval: [0.9945, 1.1099]
+    Action taked by itseft: SELL: 19, HOLD: 52, BUY: 29
+Step 6300:
+    Percent Capital: 1.0707, interval: [0.9945, 1.1099]
+    Action taked by itseft: SELL: 13, HOLD: 30, BUY: 57
+Step 6400:
+    Percent Capital: 1.0915, interval: [0.9945, 1.1099]
+    Action taked by itseft: SELL: 15, HOLD: 21, BUY: 64
+Step 6500:
+    Percent Capital: 1.1001, interval: [0.9945, 1.1099]
+    Action taked by itseft: SELL: 27, HOLD: 42, BUY: 31
+Step 6600:
+    Percent Capital: 1.1074, interval: [0.9945, 1.1117]
+    Action taked by itseft: SELL: 14, HOLD: 45, BUY: 41
+Step 6700:
+    Percent Capital: 1.0981, interval: [0.9945, 1.1117]
+    Action taked by itseft: SELL: 24, HOLD: 55, BUY: 21
+Step 6800:
+    Percent Capital: 1.0928, interval: [0.9945, 1.1117]
+    Action taked by itseft: SELL: 19, HOLD: 51, BUY: 30
+Step 6900:
+    Percent Capital: 1.0889, interval: [0.9945, 1.1117]
+    Action taked by itseft: SELL: 21, HOLD: 56, BUY: 23
+Step 7000:
+    Percent Capital: 1.0894, interval: [0.9945, 1.1117]
+    Action taked by itseft: SELL: 17, HOLD: 39, BUY: 44
+Step 7100:
+    Percent Capital: 1.0892, interval: [0.9945, 1.1117]
+    Action taked by itseft: SELL: 12, HOLD: 72, BUY: 16
+Step 7200:
+    Percent Capital: 1.0870, interval: [0.9945, 1.1117]
+    Action taked by itseft: SELL: 23, HOLD: 67, BUY: 10
+Step 7300:
+    Percent Capital: 1.0832, interval: [0.9945, 1.1117]
+    Action taked by itseft: SELL: 13, HOLD: 70, BUY: 17
+Step 7400:
+    Percent Capital: 1.0805, interval: [0.9945, 1.1117]
+    Action taked by itseft: SELL: 20, HOLD: 66, BUY: 14
+Step 7500:
+    Percent Capital: 1.0913, interval: [0.9945, 1.1117]
+    Action taked by itseft: SELL: 23, HOLD: 59, BUY: 18
+Step 7600:
+    Percent Capital: 1.0767, interval: [0.9945, 1.1117]
+    Action taked by itseft: SELL: 15, HOLD: 41, BUY: 44
+Step 7700:
+    Percent Capital: 1.0824, interval: [0.9945, 1.1117]
+    Action taked by itseft: SELL: 19, HOLD: 49, BUY: 32
+Step 7800:
+    Percent Capital: 1.0971, interval: [0.9945, 1.1117]
+    Action taked by itseft: SELL: 23, HOLD: 45, BUY: 32
+Step 7900:
+    Percent Capital: 1.1103, interval: [0.9945, 1.1117]
+    Action taked by itseft: SELL: 26, HOLD: 46, BUY: 28
+Step 8000:
+    Percent Capital: 1.1103, interval: [0.9945, 1.1126]
+    Action taked by itseft: SELL: 15, HOLD: 62, BUY: 23
+Step 8100:
+    Percent Capital: 1.1110, interval: [0.9945, 1.1132]
+    Action taked by itseft: SELL: 18, HOLD: 57, BUY: 25
+Step 8200:
+    Percent Capital: 1.1316, interval: [0.9945, 1.1322]
+    Action taked by itseft: SELL: 21, HOLD: 45, BUY: 34
+Step 8300:
+    Percent Capital: 1.1352, interval: [0.9945, 1.1358]
+    Action taked by itseft: SELL: 28, HOLD: 49, BUY: 23
+Step 8400:
+    Percent Capital: 1.1329, interval: [0.9945, 1.1383]
+    Action taked by itseft: SELL: 21, HOLD: 50, BUY: 29
+Episode 2/10 ended
+
+Step 0:
+    Percent Capital: 1.0000, interval: [1.0000, 1.0000]
+    Action taked by itseft: SELL: 15, HOLD: 68, BUY: 17
+Step 100:
+    Percent Capital: 0.9943, interval: [0.9941, 1.0000]
+    Action taked by itseft: SELL: 16, HOLD: 72, BUY: 12
+Step 200:
+    Percent Capital: 0.9888, interval: [0.9888, 1.0000]
+    Action taked by itseft: SELL: 11, HOLD: 76, BUY: 13
+Step 300:
+    Percent Capital: 0.9890, interval: [0.9875, 1.0000]
+    Action taked by itseft: SELL: 13, HOLD: 75, BUY: 12
+Step 400:
+    Percent Capital: 0.9904, interval: [0.9875, 1.0000]
+    Action taked by itseft: SELL: 10, HOLD: 77, BUY: 13
+Step 500:
+    Percent Capital: 0.9846, interval: [0.9833, 1.0000]
+    Action taked by itseft: SELL: 21, HOLD: 69, BUY: 10
+Step 600:
+    Percent Capital: 0.9848, interval: [0.9833, 1.0000]
+    Action taked by itseft: SELL: 18, HOLD: 66, BUY: 16
+Step 700:
+    Percent Capital: 0.9873, interval: [0.9833, 1.0000]
+    Action taked by itseft: SELL: 17, HOLD: 55, BUY: 28
+Step 800:
+    Percent Capital: 0.9919, interval: [0.9832, 1.0000]
+    Action taked by itseft: SELL: 28, HOLD: 38, BUY: 34
+Step 900:
+    Percent Capital: 1.0016, interval: [0.9832, 1.0016]
+    Action taked by itseft: SELL: 19, HOLD: 49, BUY: 32
+Step 1000:
+    Percent Capital: 1.0047, interval: [0.9832, 1.0047]
+    Action taked by itseft: SELL: 21, HOLD: 59, BUY: 20
+Step 1100:
+    Percent Capital: 1.0115, interval: [0.9832, 1.0115]
+    Action taked by itseft: SELL: 23, HOLD: 41, BUY: 36
+Step 1200:
+    Percent Capital: 1.0046, interval: [0.9832, 1.0115]
+    Action taked by itseft: SELL: 29, HOLD: 53, BUY: 18
+Step 1300:
+    Percent Capital: 1.0177, interval: [0.9832, 1.0177]
+    Action taked by itseft: SELL: 20, HOLD: 51, BUY: 29
+Step 1400:
+    Percent Capital: 0.9958, interval: [0.9832, 1.0177]
+    Action taked by itseft: SELL: 11, HOLD: 28, BUY: 61
+Step 1500:
+    Percent Capital: 0.9964, interval: [0.9832, 1.0177]
+    Action taked by itseft: SELL: 23, HOLD: 35, BUY: 42
+Step 1600:
+    Percent Capital: 1.0053, interval: [0.9832, 1.0177]
+    Action taked by itseft: SELL: 24, HOLD: 54, BUY: 22
+Step 1700:
+    Percent Capital: 1.0057, interval: [0.9832, 1.0177]
+    Action taked by itseft: SELL: 16, HOLD: 64, BUY: 20
+Step 1800:
+    Percent Capital: 1.0145, interval: [0.9832, 1.0177]
+    Action taked by itseft: SELL: 23, HOLD: 58, BUY: 19
+Step 1900:
+    Percent Capital: 1.0104, interval: [0.9832, 1.0195]
+    Action taked by itseft: SELL: 20, HOLD: 28, BUY: 52
+Step 2000:
+    Percent Capital: 0.9815, interval: [0.9815, 1.0195]
+    Action taked by itseft: SELL: 18, HOLD: 10, BUY: 72
+Step 2100:
+    Percent Capital: 0.9706, interval: [0.9706, 1.0195]
+    Action taked by itseft: SELL: 25, HOLD: 39, BUY: 36
+Step 2200:
+    Percent Capital: 0.9610, interval: [0.9594, 1.0195]
+    Action taked by itseft: SELL: 14, HOLD: 32, BUY: 54
+Step 2300:
+    Percent Capital: 0.9416, interval: [0.9416, 1.0195]
+    Action taked by itseft: SELL: 21, HOLD: 39, BUY: 40
+Step 2400:
+    Percent Capital: 0.9143, interval: [0.9143, 1.0195]
+    Action taked by itseft: SELL: 29, HOLD: 14, BUY: 57
+Step 2500:
+    Percent Capital: 0.9256, interval: [0.9097, 1.0195]
+    Action taked by itseft: SELL: 14, HOLD: 9, BUY: 77
+Step 2600:
+    Percent Capital: 0.9128, interval: [0.9068, 1.0195]
+    Action taked by itseft: SELL: 13, HOLD: 17, BUY: 70
+Step 2700:
+    Percent Capital: 0.9321, interval: [0.9068, 1.0195]
+    Action taked by itseft: SELL: 16, HOLD: 15, BUY: 69
+Step 2800:
+    Percent Capital: 0.9291, interval: [0.9068, 1.0195]
+    Action taked by itseft: SELL: 15, HOLD: 9, BUY: 76
+Step 2900:
+    Percent Capital: 0.9404, interval: [0.9068, 1.0195]
+    Action taked by itseft: SELL: 22, HOLD: 48, BUY: 30
+Step 3000:
+    Percent Capital: 0.9433, interval: [0.9068, 1.0195]
+    Action taked by itseft: SELL: 25, HOLD: 51, BUY: 24
+Step 3100:
+    Percent Capital: 0.9519, interval: [0.9068, 1.0195]
+    Action taked by itseft: SELL: 19, HOLD: 46, BUY: 35
+Step 3200:
+    Percent Capital: 0.9526, interval: [0.9068, 1.0195]
+    Action taked by itseft: SELL: 22, HOLD: 55, BUY: 23
+Step 3300:
+    Percent Capital: 0.9612, interval: [0.9068, 1.0195]
+    Action taked by itseft: SELL: 21, HOLD: 68, BUY: 11
+Step 3400:
+    Percent Capital: 0.9385, interval: [0.9068, 1.0195]
+    Action taked by itseft: SELL: 15, HOLD: 39, BUY: 46
+Step 3500:
+    Percent Capital: 0.9278, interval: [0.9068, 1.0195]
+    Action taked by itseft: SELL: 23, HOLD: 40, BUY: 37
+Step 3600:
+    Percent Capital: 0.9312, interval: [0.9068, 1.0195]
+    Action taked by itseft: SELL: 23, HOLD: 41, BUY: 36
+Step 3700:
+    Percent Capital: 0.9388, interval: [0.9068, 1.0195]
+    Action taked by itseft: SELL: 25, HOLD: 33, BUY: 42
+Step 3800:
+    Percent Capital: 0.9242, interval: [0.9068, 1.0195]
+    Action taked by itseft: SELL: 12, HOLD: 20, BUY: 68
+Step 3900:
+    Percent Capital: 0.8943, interval: [0.8943, 1.0195]
+    Action taked by itseft: SELL: 5, HOLD: 3, BUY: 92
+Step 4000:
+    Percent Capital: 0.8697, interval: [0.8670, 1.0195]
+    Action taked by itseft: SELL: 5, HOLD: 4, BUY: 91
+Step 4100:
+    Percent Capital: 0.8718, interval: [0.8668, 1.0195]
+    Action taked by itseft: SELL: 15, HOLD: 17, BUY: 68
+Episode 3/10 ended
+
+Step 0:
+    Percent Capital: 1.0000, interval: [1.0000, 1.0000]
+    Action taked by itseft: SELL: 16, HOLD: 17, BUY: 56
+Step 100:
+    Percent Capital: 1.0029, interval: [0.9716, 1.0029]
+    Action taked by itseft: SELL: 9, HOLD: 9, BUY: 82
+Step 200:
+    Percent Capital: 0.9974, interval: [0.9716, 1.0029]
+    Action taked by itseft: SELL: 16, HOLD: 16, BUY: 68
+Step 300:
+    Percent Capital: 1.0026, interval: [0.9716, 1.0073]
+    Action taked by itseft: SELL: 20, HOLD: 11, BUY: 69
+Step 400:
+    Percent Capital: 0.9929, interval: [0.9716, 1.0095]
+    Action taked by itseft: SELL: 21, HOLD: 11, BUY: 68
+Step 500:
+    Percent Capital: 1.0747, interval: [0.9716, 1.0747]
+    Action taked by itseft: SELL: 22, HOLD: 12, BUY: 66
+Step 600:
+    Percent Capital: 1.0860, interval: [0.9716, 1.0899]
+    Action taked by itseft: SELL: 20, HOLD: 29, BUY: 51
+Step 700:
+    Percent Capital: 1.0729, interval: [0.9716, 1.0961]
+    Action taked by itseft: SELL: 25, HOLD: 27, BUY: 48
+Step 800:
+    Percent Capital: 1.0788, interval: [0.9716, 1.0963]
+    Action taked by itseft: SELL: 16, HOLD: 16, BUY: 68
+Step 900:
+    Percent Capital: 1.0377, interval: [0.9716, 1.0963]
+    Action taked by itseft: SELL: 9, HOLD: 1, BUY: 90
+Step 1000:
+    Percent Capital: 1.0328, interval: [0.9716, 1.0963]
+    Action taked by itseft: SELL: 8, HOLD: 2, BUY: 90
+Step 1100:
+    Percent Capital: 1.0394, interval: [0.9716, 1.0963]
+    Action taked by itseft: SELL: 5, HOLD: 3, BUY: 92
+Step 1200:
+    Percent Capital: 1.1299, interval: [0.9716, 1.1299]
+    Action taked by itseft: SELL: 1, HOLD: 1, BUY: 98
+Step 1300:
+    Percent Capital: 1.1299, interval: [0.9716, 1.1299]
+    Action taked by itseft: SELL: 0, HOLD: 1, BUY: 99
+Step 1400:
+    Percent Capital: 1.2119, interval: [0.9716, 1.2508]
+    Action taked by itseft: SELL: 2, HOLD: 0, BUY: 98
+Step 1500:
+    Percent Capital: 1.2288, interval: [0.9716, 1.2508]
+    Action taked by itseft: SELL: 6, HOLD: 2, BUY: 92
+Step 1600:
+    Percent Capital: 1.2289, interval: [0.9716, 1.2508]
+    Action taked by itseft: SELL: 13, HOLD: 6, BUY: 81
+Step 1700:
+    Percent Capital: 1.2642, interval: [0.9716, 1.2642]
+    Action taked by itseft: SELL: 9, HOLD: 12, BUY: 79
+Step 1800:
+    Percent Capital: 1.2278, interval: [0.9716, 1.2703]
+    Action taked by itseft: SELL: 23, HOLD: 26, BUY: 51
+Step 1900:
+    Percent Capital: 1.2364, interval: [0.9716, 1.2703]
+    Action taked by itseft: SELL: 38, HOLD: 29, BUY: 33
+Step 2000:
+    Percent Capital: 1.2257, interval: [0.9716, 1.2703]
+    Action taked by itseft: SELL: 14, HOLD: 48, BUY: 38
+Step 2100:
+    Percent Capital: 1.2265, interval: [0.9716, 1.2703]
+    Action taked by itseft: SELL: 18, HOLD: 62, BUY: 20
+Step 2200:
+    Percent Capital: 1.2339, interval: [0.9716, 1.2703]
+    Action taked by itseft: SELL: 15, HOLD: 49, BUY: 36
+Step 2300:
+    Percent Capital: 1.2267, interval: [0.9716, 1.2703]
+    Action taked by itseft: SELL: 17, HOLD: 43, BUY: 40
+Step 2400:
+    Percent Capital: 1.2451, interval: [0.9716, 1.2703]
+    Action taked by itseft: SELL: 31, HOLD: 35, BUY: 34
+Step 2500:
+    Percent Capital: 1.2056, interval: [0.9716, 1.2703]
+    Action taked by itseft: SELL: 9, HOLD: 11, BUY: 80
+Step 2600:
+    Percent Capital: 1.1990, interval: [0.9716, 1.2703]
+    Action taked by itseft: SELL: 16, HOLD: 28, BUY: 56
+Step 2700:
+    Percent Capital: 1.2191, interval: [0.9716, 1.2703]
+    Action taked by itseft: SELL: 20, HOLD: 37, BUY: 43
+Step 2800:
+    Percent Capital: 1.2450, interval: [0.9716, 1.2703]
+    Action taked by itseft: SELL: 16, HOLD: 52, BUY: 32
+Step 2900:
+    Percent Capital: 1.2471, interval: [0.9716, 1.2703]
+    Action taked by itseft: SELL: 12, HOLD: 56, BUY: 32
+Step 3000:
+    Percent Capital: 1.2328, interval: [0.9716, 1.2703]
+    Action taked by itseft: SELL: 27, HOLD: 44, BUY: 29
+Step 3100:
+    Percent Capital: 1.2477, interval: [0.9716, 1.2703]
+    Action taked by itseft: SELL: 16, HOLD: 66, BUY: 18
+Step 3200:
+    Percent Capital: 1.2587, interval: [0.9716, 1.2703]
+    Action taked by itseft: SELL: 9, HOLD: 68, BUY: 23
+Step 3300:
+    Percent Capital: 1.2764, interval: [0.9716, 1.2764]
+    Action taked by itseft: SELL: 14, HOLD: 71, BUY: 15
+Step 3400:
+    Percent Capital: 1.2548, interval: [0.9716, 1.2764]
+    Action taked by itseft: SELL: 8, HOLD: 66, BUY: 26
+Step 3500:
+    Percent Capital: 1.2732, interval: [0.9716, 1.2764]
+    Action taked by itseft: SELL: 9, HOLD: 76, BUY: 15
+Step 3600:
+    Percent Capital: 1.2948, interval: [0.9716, 1.2948]
+    Action taked by itseft: SELL: 15, HOLD: 80, BUY: 5
+Step 3700:
+    Percent Capital: 1.3089, interval: [0.9716, 1.3089]
+    Action taked by itseft: SELL: 17, HOLD: 58, BUY: 25
+Step 3800:
+    Percent Capital: 1.3112, interval: [0.9716, 1.3130]
+    Action taked by itseft: SELL: 25, HOLD: 41, BUY: 34
+Step 3900:
+    Percent Capital: 1.3034, interval: [0.9716, 1.3186]
+    Action taked by itseft: SELL: 24, HOLD: 53, BUY: 23
+Step 4000:
+    Percent Capital: 1.3164, interval: [0.9716, 1.3203]
+    Action taked by itseft: SELL: 10, HOLD: 73, BUY: 17
+Step 4100:
+    Percent Capital: 1.3341, interval: [0.9716, 1.3375]
+    Action taked by itseft: SELL: 8, HOLD: 73, BUY: 19
+Step 4200:
+    Percent Capital: 1.3379, interval: [0.9716, 1.3456]
+    Action taked by itseft: SELL: 13, HOLD: 58, BUY: 29
+Step 4300:
+    Percent Capital: 1.3411, interval: [0.9716, 1.3456]
+    Action taked by itseft: SELL: 20, HOLD: 57, BUY: 23
+Step 4400:
+    Percent Capital: 1.3390, interval: [0.9716, 1.3456]
+    Action taked by itseft: SELL: 16, HOLD: 62, BUY: 22
+Step 4500:
+    Percent Capital: 1.3483, interval: [0.9716, 1.3483]
+    Action taked by itseft: SELL: 13, HOLD: 73, BUY: 14
+Step 4600:
+    Percent Capital: 1.3537, interval: [0.9716, 1.3593]
+    Action taked by itseft: SELL: 24, HOLD: 65, BUY: 11
+Step 4700:
+    Percent Capital: 1.3574, interval: [0.9716, 1.3593]
+    Action taked by itseft: SELL: 10, HOLD: 76, BUY: 14
+Step 4800:
+    Percent Capital: 1.3377, interval: [0.9716, 1.3593]
+    Action taked by itseft: SELL: 23, HOLD: 55, BUY: 22
+Step 4900:
+    Percent Capital: 1.3567, interval: [0.9716, 1.3593]
+    Action taked by itseft: SELL: 23, HOLD: 42, BUY: 35
+Step 5000:
+    Percent Capital: 1.3544, interval: [0.9716, 1.3634]
+    Action taked by itseft: SELL: 18, HOLD: 62, BUY: 20
+Step 5100:
+    Percent Capital: 1.3745, interval: [0.9716, 1.3766]
+    Action taked by itseft: SELL: 18, HOLD: 32, BUY: 50
+Step 5200:
+    Percent Capital: 1.3891, interval: [0.9716, 1.4023]
+    Action taked by itseft: SELL: 23, HOLD: 19, BUY: 58
+Step 5300:
+    Percent Capital: 1.3806, interval: [0.9716, 1.4023]
+    Action taked by itseft: SELL: 28, HOLD: 46, BUY: 26
+Step 5400:
+    Percent Capital: 1.3939, interval: [0.9716, 1.4023]
+    Action taked by itseft: SELL: 27, HOLD: 34, BUY: 39
+Step 5500:
+    Percent Capital: 1.4096, interval: [0.9716, 1.4147]
+    Action taked by itseft: SELL: 22, HOLD: 40, BUY: 38
+Step 5600:
+    Percent Capital: 1.3889, interval: [0.9716, 1.4147]
+    Action taked by itseft: SELL: 24, HOLD: 15, BUY: 61
+Step 5700:
+    Percent Capital: 1.3993, interval: [0.9716, 1.4147]
+    Action taked by itseft: SELL: 28, HOLD: 36, BUY: 36
+Step 5800:
+    Percent Capital: 1.3951, interval: [0.9716, 1.4147]
+    Action taked by itseft: SELL: 23, HOLD: 46, BUY: 31
+Step 5900:
+    Percent Capital: 1.3974, interval: [0.9716, 1.4147]
+    Action taked by itseft: SELL: 21, HOLD: 63, BUY: 16
+Step 6000:
+    Percent Capital: 1.3928, interval: [0.9716, 1.4147]
+    Action taked by itseft: SELL: 20, HOLD: 61, BUY: 19
+Step 6100:
+    Percent Capital: 1.3803, interval: [0.9716, 1.4147]
+    Action taked by itseft: SELL: 22, HOLD: 45, BUY: 33
+Step 6200:
+    Percent Capital: 1.3686, interval: [0.9716, 1.4147]
+    Action taked by itseft: SELL: 20, HOLD: 49, BUY: 31
+Step 6300:
+    Percent Capital: 1.3365, interval: [0.9716, 1.4147]
+    Action taked by itseft: SELL: 14, HOLD: 57, BUY: 29
+Step 6400:
+    Percent Capital: 1.3448, interval: [0.9716, 1.4147]
+    Action taked by itseft: SELL: 11, HOLD: 73, BUY: 16
+Step 6500:
+    Percent Capital: 1.3419, interval: [0.9716, 1.4147]
+    Action taked by itseft: SELL: 22, HOLD: 46, BUY: 32
+Step 6600:
+    Percent Capital: 1.3601, interval: [0.9716, 1.4147]
+    Action taked by itseft: SELL: 19, HOLD: 41, BUY: 40
+Step 6700:
+    Percent Capital: 1.3577, interval: [0.9716, 1.4147]
+    Action taked by itseft: SELL: 21, HOLD: 48, BUY: 31
+Step 6800:
+    Percent Capital: 1.3620, interval: [0.9716, 1.4147]
+    Action taked by itseft: SELL: 15, HOLD: 66, BUY: 19
+Step 6900:
+    Percent Capital: 1.3609, interval: [0.9716, 1.4147]
+    Action taked by itseft: SELL: 21, HOLD: 50, BUY: 29
+Step 7000:
+    Percent Capital: 1.3515, interval: [0.9716, 1.4147]
+    Action taked by itseft: SELL: 21, HOLD: 51, BUY: 28
+Step 7100:
+    Percent Capital: 1.3475, interval: [0.9716, 1.4147]
+    Action taked by itseft: SELL: 20, HOLD: 52, BUY: 28
+Step 7200:
+    Percent Capital: 1.3636, interval: [0.9716, 1.4147]
+    Action taked by itseft: SELL: 20, HOLD: 65, BUY: 15
+Step 7300:
+    Percent Capital: 1.3610, interval: [0.9716, 1.4147]
+    Action taked by itseft: SELL: 13, HOLD: 59, BUY: 28
+Step 7400:
+    Percent Capital: 1.3520, interval: [0.9716, 1.4147]
+    Action taked by itseft: SELL: 25, HOLD: 32, BUY: 43
+Step 7500:
+    Percent Capital: 1.3523, interval: [0.9716, 1.4147]
+    Action taked by itseft: SELL: 13, HOLD: 60, BUY: 27
+Step 7600:
+    Percent Capital: 1.3536, interval: [0.9716, 1.4147]
+    Action taked by itseft: SELL: 19, HOLD: 70, BUY: 11
+Step 7700:
+    Percent Capital: 1.3578, interval: [0.9716, 1.4147]
+    Action taked by itseft: SELL: 16, HOLD: 76, BUY: 8
+Step 7800:
+    Percent Capital: 1.3837, interval: [0.9716, 1.4147]
+    Action taked by itseft: SELL: 22, HOLD: 65, BUY: 13
+Step 7900:
+    Percent Capital: 1.3776, interval: [0.9716, 1.4147]
+    Action taked by itseft: SELL: 18, HOLD: 41, BUY: 41
+Step 8000:
+    Percent Capital: 1.3667, interval: [0.9716, 1.4147]
+    Action taked by itseft: SELL: 21, HOLD: 49, BUY: 30
+Step 8100:
+    Percent Capital: 1.3660, interval: [0.9716, 1.4147]
+    Action taked by itseft: SELL: 17, HOLD: 55, BUY: 28
+Step 8200:
+    Percent Capital: 1.3668, interval: [0.9716, 1.4147]
+    Action taked by itseft: SELL: 13, HOLD: 77, BUY: 10
+Step 8300:
+    Percent Capital: 1.3552, interval: [0.9716, 1.4147]
+    Action taked by itseft: SELL: 17, HOLD: 58, BUY: 25
+Step 8400:
+    Percent Capital: 1.3621, interval: [0.9716, 1.4147]
+    Action taked by itseft: SELL: 7, HOLD: 76, BUY: 17
+Episode 4/10 ended
+
+Step 0:
+    Percent Capital: 1.0000, interval: [1.0000, 1.0000]
+    Action taked by itseft: SELL: 13, HOLD: 41, BUY: 46
+Step 100:
+    Percent Capital: 0.9993, interval: [0.9979, 1.0006]
+    Action taked by itseft: SELL: 18, HOLD: 65, BUY: 17
+Step 200:
+    Percent Capital: 0.9982, interval: [0.9919, 1.0006]
+    Action taked by itseft: SELL: 19, HOLD: 64, BUY: 17
+Step 300:
+    Percent Capital: 0.9963, interval: [0.9919, 1.0018]
+    Action taked by itseft: SELL: 14, HOLD: 56, BUY: 30
+Step 400:
+    Percent Capital: 0.9931, interval: [0.9919, 1.0018]
+    Action taked by itseft: SELL: 11, HOLD: 78, BUY: 11
+Step 500:
+    Percent Capital: 1.0015, interval: [0.9919, 1.0018]
+    Action taked by itseft: SELL: 5, HOLD: 81, BUY: 14
+Step 600:
+    Percent Capital: 0.9795, interval: [0.9785, 1.0018]
+    Action taked by itseft: SELL: 16, HOLD: 41, BUY: 43
+Step 700:
+    Percent Capital: 0.9937, interval: [0.9785, 1.0018]
+    Action taked by itseft: SELL: 14, HOLD: 74, BUY: 12
+Step 800:
+    Percent Capital: 1.0024, interval: [0.9785, 1.0024]
+    Action taked by itseft: SELL: 17, HOLD: 63, BUY: 20
+Step 900:
+    Percent Capital: 0.9981, interval: [0.9785, 1.0059]
+    Action taked by itseft: SELL: 16, HOLD: 68, BUY: 16
+Step 1000:
+    Percent Capital: 1.0079, interval: [0.9785, 1.0079]
+    Action taked by itseft: SELL: 11, HOLD: 67, BUY: 22
+Step 1100:
+    Percent Capital: 1.0120, interval: [0.9785, 1.0150]
+    Action taked by itseft: SELL: 19, HOLD: 72, BUY: 9
+Step 1200:
+    Percent Capital: 1.0121, interval: [0.9785, 1.0150]
+    Action taked by itseft: SELL: 8, HOLD: 76, BUY: 16
+Step 1300:
+    Percent Capital: 1.0067, interval: [0.9785, 1.0150]
+    Action taked by itseft: SELL: 10, HOLD: 79, BUY: 11
+Step 1400:
+    Percent Capital: 1.0087, interval: [0.9785, 1.0150]
+    Action taked by itseft: SELL: 15, HOLD: 67, BUY: 18
+Step 1500:
+    Percent Capital: 0.9913, interval: [0.9785, 1.0150]
+    Action taked by itseft: SELL: 24, HOLD: 17, BUY: 59
+Step 1600:
+    Percent Capital: 0.9846, interval: [0.9785, 1.0150]
+    Action taked by itseft: SELL: 21, HOLD: 18, BUY: 61
+Step 1700:
+    Percent Capital: 0.9775, interval: [0.9775, 1.0150]
+    Action taked by itseft: SELL: 19, HOLD: 32, BUY: 49
+Step 1800:
+    Percent Capital: 0.9776, interval: [0.9753, 1.0150]
+    Action taked by itseft: SELL: 14, HOLD: 28, BUY: 58
+Step 1900:
+    Percent Capital: 0.9952, interval: [0.9753, 1.0150]
+    Action taked by itseft: SELL: 17, HOLD: 58, BUY: 25
+Step 2000:
+    Percent Capital: 1.0142, interval: [0.9753, 1.0156]
+    Action taked by itseft: SELL: 15, HOLD: 54, BUY: 31
+Step 2100:
+    Percent Capital: 1.0105, interval: [0.9753, 1.0169]
+    Action taked by itseft: SELL: 11, HOLD: 73, BUY: 16
+Step 2200:
+    Percent Capital: 1.0044, interval: [0.9753, 1.0186]
+    Action taked by itseft: SELL: 16, HOLD: 70, BUY: 14
+Step 2300:
+    Percent Capital: 1.0128, interval: [0.9753, 1.0186]
+    Action taked by itseft: SELL: 20, HOLD: 55, BUY: 25
+Step 2400:
+    Percent Capital: 1.0177, interval: [0.9753, 1.0186]
+    Action taked by itseft: SELL: 15, HOLD: 65, BUY: 20
+Step 2500:
+    Percent Capital: 1.0247, interval: [0.9753, 1.0279]
+    Action taked by itseft: SELL: 19, HOLD: 55, BUY: 26
+Step 2600:
+    Percent Capital: 1.0239, interval: [0.9753, 1.0279]
+    Action taked by itseft: SELL: 19, HOLD: 51, BUY: 30
+Step 2700:
+    Percent Capital: 1.0237, interval: [0.9753, 1.0313]
+    Action taked by itseft: SELL: 14, HOLD: 35, BUY: 51
+Step 2800:
+    Percent Capital: 1.0224, interval: [0.9753, 1.0328]
+    Action taked by itseft: SELL: 18, HOLD: 46, BUY: 36
+Step 2900:
+    Percent Capital: 1.0441, interval: [0.9753, 1.0441]
+    Action taked by itseft: SELL: 14, HOLD: 46, BUY: 40
+Step 3000:
+    Percent Capital: 1.0328, interval: [0.9753, 1.0441]
+    Action taked by itseft: SELL: 20, HOLD: 38, BUY: 42
+Step 3100:
+    Percent Capital: 1.0345, interval: [0.9753, 1.0441]
+    Action taked by itseft: SELL: 13, HOLD: 57, BUY: 30
+Step 3200:
+    Percent Capital: 1.0194, interval: [0.9753, 1.0441]
+    Action taked by itseft: SELL: 21, HOLD: 59, BUY: 20
+Step 3300:
+    Percent Capital: 1.0155, interval: [0.9753, 1.0441]
+    Action taked by itseft: SELL: 15, HOLD: 54, BUY: 31
+Step 3400:
+    Percent Capital: 1.0150, interval: [0.9753, 1.0441]
+    Action taked by itseft: SELL: 10, HOLD: 81, BUY: 9
+Step 3500:
+    Percent Capital: 1.0341, interval: [0.9753, 1.0441]
+    Action taked by itseft: SELL: 16, HOLD: 69, BUY: 15
+Step 3600:
+    Percent Capital: 1.0369, interval: [0.9753, 1.0441]
+    Action taked by itseft: SELL: 5, HOLD: 77, BUY: 18
+Step 3700:
+    Percent Capital: 1.0488, interval: [0.9753, 1.0510]
+    Action taked by itseft: SELL: 13, HOLD: 73, BUY: 14
+Step 3800:
+    Percent Capital: 1.0390, interval: [0.9753, 1.0510]
+    Action taked by itseft: SELL: 12, HOLD: 67, BUY: 21
+Step 3900:
+    Percent Capital: 1.0262, interval: [0.9753, 1.0510]
+    Action taked by itseft: SELL: 8, HOLD: 86, BUY: 6
+Step 4000:
+    Percent Capital: 1.0349, interval: [0.9753, 1.0510]
+    Action taked by itseft: SELL: 21, HOLD: 61, BUY: 18
+Step 4100:
+    Percent Capital: 1.0287, interval: [0.9753, 1.0510]
+    Action taked by itseft: SELL: 20, HOLD: 58, BUY: 22
+Step 4200:
+    Percent Capital: 1.0265, interval: [0.9753, 1.0510]
+    Action taked by itseft: SELL: 7, HOLD: 62, BUY: 31
+Step 4300:
+    Percent Capital: 1.0141, interval: [0.9753, 1.0510]
+    Action taked by itseft: SELL: 21, HOLD: 54, BUY: 25
+Step 4400:
+    Percent Capital: 0.9923, interval: [0.9753, 1.0510]
+    Action taked by itseft: SELL: 10, HOLD: 66, BUY: 24
+Step 4500:
+    Percent Capital: 1.0002, interval: [0.9753, 1.0510]
+    Action taked by itseft: SELL: 19, HOLD: 63, BUY: 18
+Step 4600:
+    Percent Capital: 1.0007, interval: [0.9753, 1.0510]
+    Action taked by itseft: SELL: 13, HOLD: 73, BUY: 14
+Step 4700:
+    Percent Capital: 1.0023, interval: [0.9753, 1.0510]
+    Action taked by itseft: SELL: 18, HOLD: 74, BUY: 8
+Step 4800:
+    Percent Capital: 1.0010, interval: [0.9753, 1.0510]
+    Action taked by itseft: SELL: 14, HOLD: 78, BUY: 8
+Step 4900:
+    Percent Capital: 0.9913, interval: [0.9753, 1.0510]
+    Action taked by itseft: SELL: 15, HOLD: 69, BUY: 16
+Step 5000:
+    Percent Capital: 0.9918, interval: [0.9753, 1.0510]
+    Action taked by itseft: SELL: 10, HOLD: 84, BUY: 6
+Step 5100:
+    Percent Capital: 1.0001, interval: [0.9753, 1.0510]
+    Action taked by itseft: SELL: 11, HOLD: 83, BUY: 6
+Step 5200:
+    Percent Capital: 0.9961, interval: [0.9753, 1.0510]
+    Action taked by itseft: SELL: 19, HOLD: 61, BUY: 20
+Step 5300:
+    Percent Capital: 0.9944, interval: [0.9753, 1.0510]
+    Action taked by itseft: SELL: 10, HOLD: 78, BUY: 12
+Step 5400:
+    Percent Capital: 0.9726, interval: [0.9726, 1.0510]
+    Action taked by itseft: SELL: 13, HOLD: 78, BUY: 9
+Step 5500:
+    Percent Capital: 0.9760, interval: [0.9719, 1.0510]
+    Action taked by itseft: SELL: 12, HOLD: 78, BUY: 10
+Step 5600:
+    Percent Capital: 0.9802, interval: [0.9719, 1.0510]
+    Action taked by itseft: SELL: 7, HOLD: 82, BUY: 11
+Step 5700:
+    Percent Capital: 0.9861, interval: [0.9719, 1.0510]
+    Action taked by itseft: SELL: 15, HOLD: 69, BUY: 16
+Step 5800:
+    Percent Capital: 0.9897, interval: [0.9719, 1.0510]
+    Action taked by itseft: SELL: 15, HOLD: 73, BUY: 12
+Step 5900:
+    Percent Capital: 0.9897, interval: [0.9719, 1.0510]
+    Action taked by itseft: SELL: 6, HOLD: 94, BUY: 0
+Step 6000:
+    Percent Capital: 0.9907, interval: [0.9719, 1.0510]
+    Action taked by itseft: SELL: 10, HOLD: 71, BUY: 19
+Step 6100:
+    Percent Capital: 1.0020, interval: [0.9719, 1.0510]
+    Action taked by itseft: SELL: 8, HOLD: 86, BUY: 6
+Step 6200:
+    Percent Capital: 0.9974, interval: [0.9719, 1.0510]
+    Action taked by itseft: SELL: 8, HOLD: 87, BUY: 5
+Step 6300:
+    Percent Capital: 1.0075, interval: [0.9719, 1.0510]
+    Action taked by itseft: SELL: 5, HOLD: 92, BUY: 3
+Step 6400:
+    Percent Capital: 1.0028, interval: [0.9719, 1.0510]
+    Action taked by itseft: SELL: 17, HOLD: 73, BUY: 10
+Step 6500:
+    Percent Capital: 1.0151, interval: [0.9719, 1.0510]
+    Action taked by itseft: SELL: 23, HOLD: 34, BUY: 43
+Step 6600:
+    Percent Capital: 1.0130, interval: [0.9719, 1.0510]
+    Action taked by itseft: SELL: 19, HOLD: 38, BUY: 43
+Step 6700:
+    Percent Capital: 1.0080, interval: [0.9719, 1.0510]
+    Action taked by itseft: SELL: 15, HOLD: 65, BUY: 20
+Step 6800:
+    Percent Capital: 1.0152, interval: [0.9719, 1.0510]
+    Action taked by itseft: SELL: 16, HOLD: 68, BUY: 16
+Step 6900:
+    Percent Capital: 1.0108, interval: [0.9719, 1.0510]
+    Action taked by itseft: SELL: 19, HOLD: 77, BUY: 4
+Step 7000:
+    Percent Capital: 1.0045, interval: [0.9719, 1.0510]
+    Action taked by itseft: SELL: 17, HOLD: 69, BUY: 14
+Step 7100:
+    Percent Capital: 1.0063, interval: [0.9719, 1.0510]
+    Action taked by itseft: SELL: 19, HOLD: 66, BUY: 15
+Step 7200:
+    Percent Capital: 1.0348, interval: [0.9719, 1.0510]
+    Action taked by itseft: SELL: 20, HOLD: 19, BUY: 61
+Step 7300:
+    Percent Capital: 1.0275, interval: [0.9719, 1.0510]
+    Action taked by itseft: SELL: 16, HOLD: 19, BUY: 65
+Step 7400:
+    Percent Capital: 1.0210, interval: [0.9719, 1.0510]
+    Action taked by itseft: SELL: 22, HOLD: 41, BUY: 37
+Step 7500:
+    Percent Capital: 1.0234, interval: [0.9719, 1.0510]
+    Action taked by itseft: SELL: 14, HOLD: 69, BUY: 17
+Step 7600:
+    Percent Capital: 1.0167, interval: [0.9719, 1.0510]
+    Action taked by itseft: SELL: 18, HOLD: 63, BUY: 19
+Step 7700:
+    Percent Capital: 1.0069, interval: [0.9719, 1.0510]
+    Action taked by itseft: SELL: 24, HOLD: 53, BUY: 23
+Step 7800:
+    Percent Capital: 1.0027, interval: [0.9719, 1.0510]
+    Action taked by itseft: SELL: 8, HOLD: 82, BUY: 10
+Step 7900:
+    Percent Capital: 1.0030, interval: [0.9719, 1.0510]
+    Action taked by itseft: SELL: 13, HOLD: 78, BUY: 9
+Step 8000:
+    Percent Capital: 1.0030, interval: [0.9719, 1.0510]
+    Action taked by itseft: SELL: 15, HOLD: 71, BUY: 14
+Step 8100:
+    Percent Capital: 0.9964, interval: [0.9719, 1.0510]
+    Action taked by itseft: SELL: 17, HOLD: 68, BUY: 15
+Step 8200:
+    Percent Capital: 0.9927, interval: [0.9719, 1.0510]
+    Action taked by itseft: SELL: 14, HOLD: 62, BUY: 24
+Step 8300:
+    Percent Capital: 0.9953, interval: [0.9719, 1.0510]
+    Action taked by itseft: SELL: 19, HOLD: 50, BUY: 31
+Step 8400:
+    Percent Capital: 0.9967, interval: [0.9719, 1.0510]
+    Action taked by itseft: SELL: 18, HOLD: 53, BUY: 29
+Episode 5/10 ended
+
+Step 0:
+    Percent Capital: 1.0000, interval: [1.0000, 1.0000]
+    Action taked by itseft: SELL: 12, HOLD: 66, BUY: 22
+Step 100:
+    Percent Capital: 1.0019, interval: [0.9986, 1.0019]
+    Action taked by itseft: SELL: 12, HOLD: 60, BUY: 28
+Step 200:
+    Percent Capital: 0.9992, interval: [0.9986, 1.0037]
+    Action taked by itseft: SELL: 14, HOLD: 66, BUY: 20
+Step 300:
+    Percent Capital: 0.9918, interval: [0.9918, 1.0037]
+    Action taked by itseft: SELL: 14, HOLD: 62, BUY: 24
+Step 400:
+    Percent Capital: 0.9975, interval: [0.9918, 1.0037]
+    Action taked by itseft: SELL: 23, HOLD: 66, BUY: 11
+Step 500:
+    Percent Capital: 0.9909, interval: [0.9909, 1.0037]
+    Action taked by itseft: SELL: 11, HOLD: 76, BUY: 13
+Step 600:
+    Percent Capital: 0.9959, interval: [0.9909, 1.0037]
+    Action taked by itseft: SELL: 10, HOLD: 87, BUY: 3
+Step 700:
+    Percent Capital: 1.0024, interval: [0.9909, 1.0037]
+    Action taked by itseft: SELL: 8, HOLD: 81, BUY: 11
+Step 800:
+    Percent Capital: 1.0065, interval: [0.9909, 1.0070]
+    Action taked by itseft: SELL: 10, HOLD: 80, BUY: 10
+Step 900:
+    Percent Capital: 0.9974, interval: [0.9909, 1.0081]
+    Action taked by itseft: SELL: 20, HOLD: 65, BUY: 15
+Step 1000:
+    Percent Capital: 1.0015, interval: [0.9909, 1.0081]
+    Action taked by itseft: SELL: 21, HOLD: 70, BUY: 9
+Step 1100:
+    Percent Capital: 1.0010, interval: [0.9909, 1.0081]
+    Action taked by itseft: SELL: 11, HOLD: 62, BUY: 27
+Step 1200:
+    Percent Capital: 0.9987, interval: [0.9909, 1.0081]
+    Action taked by itseft: SELL: 14, HOLD: 68, BUY: 18
+Step 1300:
+    Percent Capital: 1.0164, interval: [0.9909, 1.0164]
+    Action taked by itseft: SELL: 12, HOLD: 46, BUY: 42
+Step 1400:
+    Percent Capital: 1.0274, interval: [0.9909, 1.0275]
+    Action taked by itseft: SELL: 20, HOLD: 33, BUY: 47
+Step 1500:
+    Percent Capital: 1.0256, interval: [0.9909, 1.0282]
+    Action taked by itseft: SELL: 25, HOLD: 48, BUY: 27
+Step 1600:
+    Percent Capital: 1.0298, interval: [0.9909, 1.0298]
+    Action taked by itseft: SELL: 27, HOLD: 28, BUY: 45
+Step 1700:
+    Percent Capital: 1.0321, interval: [0.9909, 1.0321]
+    Action taked by itseft: SELL: 16, HOLD: 73, BUY: 11
+Step 1800:
+    Percent Capital: 1.0334, interval: [0.9909, 1.0359]
+    Action taked by itseft: SELL: 16, HOLD: 43, BUY: 41
+Step 1900:
+    Percent Capital: 1.0350, interval: [0.9909, 1.0394]
+    Action taked by itseft: SELL: 19, HOLD: 43, BUY: 38
+Step 2000:
+    Percent Capital: 1.0365, interval: [0.9909, 1.0409]
+    Action taked by itseft: SELL: 19, HOLD: 54, BUY: 27
+Step 2100:
+    Percent Capital: 1.0440, interval: [0.9909, 1.0440]
+    Action taked by itseft: SELL: 18, HOLD: 46, BUY: 36
+Step 2200:
+    Percent Capital: 1.0392, interval: [0.9909, 1.0445]
+    Action taked by itseft: SELL: 8, HOLD: 73, BUY: 19
+Step 2300:
+    Percent Capital: 1.0354, interval: [0.9909, 1.0445]
+    Action taked by itseft: SELL: 17, HOLD: 69, BUY: 14
+Step 2400:
+    Percent Capital: 1.0313, interval: [0.9909, 1.0445]
+    Action taked by itseft: SELL: 23, HOLD: 60, BUY: 17
+Step 2500:
+    Percent Capital: 1.0316, interval: [0.9909, 1.0445]
+    Action taked by itseft: SELL: 17, HOLD: 71, BUY: 12
+Step 2600:
+    Percent Capital: 1.0402, interval: [0.9909, 1.0445]
+    Action taked by itseft: SELL: 17, HOLD: 65, BUY: 18
+Step 2700:
+    Percent Capital: 1.0381, interval: [0.9909, 1.0445]
+    Action taked by itseft: SELL: 19, HOLD: 59, BUY: 22
+Step 2800:
+    Percent Capital: 1.0339, interval: [0.9909, 1.0445]
+    Action taked by itseft: SELL: 24, HOLD: 45, BUY: 31
+Step 2900:
+    Percent Capital: 1.0328, interval: [0.9909, 1.0445]
+    Action taked by itseft: SELL: 17, HOLD: 69, BUY: 14
+Step 3000:
+    Percent Capital: 1.0227, interval: [0.9909, 1.0445]
+    Action taked by itseft: SELL: 24, HOLD: 49, BUY: 27
+Step 3100:
+    Percent Capital: 1.0240, interval: [0.9909, 1.0445]
+    Action taked by itseft: SELL: 25, HOLD: 48, BUY: 27
+Step 3200:
+    Percent Capital: 1.0280, interval: [0.9909, 1.0445]
+    Action taked by itseft: SELL: 33, HOLD: 43, BUY: 24
+Step 3300:
+    Percent Capital: 1.0289, interval: [0.9909, 1.0445]
+    Action taked by itseft: SELL: 20, HOLD: 69, BUY: 11
+Step 3400:
+    Percent Capital: 1.0293, interval: [0.9909, 1.0445]
+    Action taked by itseft: SELL: 18, HOLD: 60, BUY: 22
+Step 3500:
+    Percent Capital: 1.0239, interval: [0.9909, 1.0445]
+    Action taked by itseft: SELL: 16, HOLD: 73, BUY: 11
+Step 3600:
+    Percent Capital: 1.0234, interval: [0.9909, 1.0445]
+    Action taked by itseft: SELL: 10, HOLD: 88, BUY: 2
+Step 3700:
+    Percent Capital: 1.0271, interval: [0.9909, 1.0445]
+    Action taked by itseft: SELL: 24, HOLD: 63, BUY: 13
+Step 3800:
+    Percent Capital: 1.0279, interval: [0.9909, 1.0445]
+    Action taked by itseft: SELL: 18, HOLD: 19, BUY: 63
+Step 3900:
+    Percent Capital: 1.0281, interval: [0.9909, 1.0445]
+    Action taked by itseft: SELL: 25, HOLD: 38, BUY: 37
+Step 4000:
+    Percent Capital: 1.0329, interval: [0.9909, 1.0445]
+    Action taked by itseft: SELL: 22, HOLD: 47, BUY: 31
+Step 4100:
+    Percent Capital: 1.0375, interval: [0.9909, 1.0445]
+    Action taked by itseft: SELL: 24, HOLD: 45, BUY: 31
+Step 4200:
+    Percent Capital: 1.0392, interval: [0.9909, 1.0445]
+    Action taked by itseft: SELL: 32, HOLD: 51, BUY: 17
+Step 4300:
+    Percent Capital: 1.0446, interval: [0.9909, 1.0467]
+    Action taked by itseft: SELL: 27, HOLD: 33, BUY: 40
+Step 4400:
+    Percent Capital: 1.0442, interval: [0.9909, 1.0467]
+    Action taked by itseft: SELL: 18, HOLD: 59, BUY: 23
+Step 4500:
+    Percent Capital: 1.0425, interval: [0.9909, 1.0467]
+    Action taked by itseft: SELL: 24, HOLD: 61, BUY: 15
+Step 4600:
+    Percent Capital: 1.0475, interval: [0.9909, 1.0484]
+    Action taked by itseft: SELL: 22, HOLD: 43, BUY: 35
+Step 4700:
+    Percent Capital: 1.0363, interval: [0.9909, 1.0484]
+    Action taked by itseft: SELL: 17, HOLD: 61, BUY: 22
+Step 4800:
+    Percent Capital: 1.0420, interval: [0.9909, 1.0484]
+    Action taked by itseft: SELL: 11, HOLD: 71, BUY: 18
+Step 4900:
+    Percent Capital: 1.0409, interval: [0.9909, 1.0484]
+    Action taked by itseft: SELL: 7, HOLD: 86, BUY: 7
+Step 5000:
+    Percent Capital: 1.0471, interval: [0.9909, 1.0484]
+    Action taked by itseft: SELL: 8, HOLD: 81, BUY: 11
+Step 5100:
+    Percent Capital: 1.0482, interval: [0.9909, 1.0490]
+    Action taked by itseft: SELL: 5, HOLD: 82, BUY: 13
+Step 5200:
+    Percent Capital: 1.0515, interval: [0.9909, 1.0540]
+    Action taked by itseft: SELL: 11, HOLD: 83, BUY: 6
+Step 5300:
+    Percent Capital: 1.0495, interval: [0.9909, 1.0540]
+    Action taked by itseft: SELL: 6, HOLD: 86, BUY: 8
+Step 5400:
+    Percent Capital: 1.0571, interval: [0.9909, 1.0591]
+    Action taked by itseft: SELL: 12, HOLD: 53, BUY: 35
+Step 5500:
+    Percent Capital: 1.0595, interval: [0.9909, 1.0629]
+    Action taked by itseft: SELL: 19, HOLD: 63, BUY: 18
+Step 5600:
+    Percent Capital: 1.0628, interval: [0.9909, 1.0629]
+    Action taked by itseft: SELL: 9, HOLD: 81, BUY: 10
+Step 5700:
+    Percent Capital: 1.0702, interval: [0.9909, 1.0702]
+    Action taked by itseft: SELL: 13, HOLD: 73, BUY: 14
+Step 5800:
+    Percent Capital: 1.0718, interval: [0.9909, 1.0718]
+    Action taked by itseft: SELL: 18, HOLD: 74, BUY: 8
+Step 5900:
+    Percent Capital: 1.0833, interval: [0.9909, 1.0833]
+    Action taked by itseft: SELL: 11, HOLD: 68, BUY: 21
+Step 6000:
+    Percent Capital: 1.0837, interval: [0.9909, 1.0906]
+    Action taked by itseft: SELL: 22, HOLD: 48, BUY: 30
+Step 6100:
+    Percent Capital: 1.0846, interval: [0.9909, 1.0906]
+    Action taked by itseft: SELL: 12, HOLD: 68, BUY: 20
+Step 6200:
+    Percent Capital: 1.0971, interval: [0.9909, 1.0971]
+    Action taked by itseft: SELL: 21, HOLD: 68, BUY: 11
+Step 6300:
+    Percent Capital: 1.0994, interval: [0.9909, 1.0994]
+    Action taked by itseft: SELL: 12, HOLD: 71, BUY: 17
+Step 6400:
+    Percent Capital: 1.1000, interval: [0.9909, 1.1000]
+    Action taked by itseft: SELL: 7, HOLD: 86, BUY: 7
+Step 6500:
+    Percent Capital: 1.1032, interval: [0.9909, 1.1035]
+    Action taked by itseft: SELL: 11, HOLD: 74, BUY: 15
+Step 6600:
+    Percent Capital: 1.1031, interval: [0.9909, 1.1035]
+    Action taked by itseft: SELL: 19, HOLD: 71, BUY: 10
+Step 6700:
+    Percent Capital: 1.1005, interval: [0.9909, 1.1035]
+    Action taked by itseft: SELL: 15, HOLD: 73, BUY: 12
+Step 6800:
+    Percent Capital: 1.1110, interval: [0.9909, 1.1127]
+    Action taked by itseft: SELL: 16, HOLD: 77, BUY: 7
+Step 6900:
+    Percent Capital: 1.1042, interval: [0.9909, 1.1127]
+    Action taked by itseft: SELL: 12, HOLD: 80, BUY: 8
+Step 7000:
+    Percent Capital: 1.1057, interval: [0.9909, 1.1127]
+    Action taked by itseft: SELL: 23, HOLD: 65, BUY: 12
+Step 7100:
+    Percent Capital: 1.1062, interval: [0.9909, 1.1127]
+    Action taked by itseft: SELL: 13, HOLD: 78, BUY: 9
+Step 7200:
+    Percent Capital: 1.1065, interval: [0.9909, 1.1127]
+    Action taked by itseft: SELL: 18, HOLD: 54, BUY: 28
+Step 7300:
+    Percent Capital: 1.1049, interval: [0.9909, 1.1127]
+    Action taked by itseft: SELL: 10, HOLD: 43, BUY: 47
+Step 7400:
+    Percent Capital: 1.1003, interval: [0.9909, 1.1127]
+    Action taked by itseft: SELL: 17, HOLD: 74, BUY: 9
+Step 7500:
+    Percent Capital: 1.0974, interval: [0.9909, 1.1127]
+    Action taked by itseft: SELL: 13, HOLD: 82, BUY: 5
+Step 7600:
+    Percent Capital: 1.0929, interval: [0.9909, 1.1127]
+    Action taked by itseft: SELL: 10, HOLD: 85, BUY: 5
+Step 7700:
+    Percent Capital: 1.0885, interval: [0.9909, 1.1127]
+    Action taked by itseft: SELL: 13, HOLD: 76, BUY: 11
+Step 7800:
+    Percent Capital: 1.0891, interval: [0.9909, 1.1127]
+    Action taked by itseft: SELL: 9, HOLD: 73, BUY: 18
+Step 7900:
+    Percent Capital: 1.0773, interval: [0.9909, 1.1127]
+    Action taked by itseft: SELL: 34, HOLD: 47, BUY: 19
+Step 8000:
+    Percent Capital: 1.0773, interval: [0.9909, 1.1127]
+    Action taked by itseft: SELL: 23, HOLD: 56, BUY: 21
+Step 8100:
+    Percent Capital: 1.0757, interval: [0.9909, 1.1127]
+    Action taked by itseft: SELL: 17, HOLD: 67, BUY: 16
+Step 8200:
+    Percent Capital: 1.0746, interval: [0.9909, 1.1127]
+    Action taked by itseft: SELL: 7, HOLD: 85, BUY: 8
+Step 8300:
+    Percent Capital: 1.0816, interval: [0.9909, 1.1127]
+    Action taked by itseft: SELL: 12, HOLD: 71, BUY: 17
+Step 8400:
+    Percent Capital: 1.0782, interval: [0.9909, 1.1127]
+    Action taked by itseft: SELL: 22, HOLD: 68, BUY: 10
+Episode 6/10 ended
+
+Step 0:
+    Percent Capital: 1.0000, interval: [1.0000, 1.0000]
+    Action taked by itseft: SELL: 10, HOLD: 67, BUY: 23
+Step 100:
+    Percent Capital: 1.0039, interval: [1.0000, 1.0067]
+    Action taked by itseft: SELL: 15, HOLD: 63, BUY: 22
+Step 200:
+    Percent Capital: 1.0083, interval: [1.0000, 1.0090]
+    Action taked by itseft: SELL: 19, HOLD: 51, BUY: 30
+Step 300:
+    Percent Capital: 1.0087, interval: [1.0000, 1.0107]
+    Action taked by itseft: SELL: 21, HOLD: 52, BUY: 27
+Step 400:
+    Percent Capital: 1.0066, interval: [1.0000, 1.0107]
+    Action taked by itseft: SELL: 25, HOLD: 60, BUY: 15
+Step 500:
+    Percent Capital: 1.0017, interval: [1.0000, 1.0107]
+    Action taked by itseft: SELL: 19, HOLD: 65, BUY: 16
+Step 600:
+    Percent Capital: 1.0197, interval: [1.0000, 1.0197]
+    Action taked by itseft: SELL: 15, HOLD: 64, BUY: 21
+Step 700:
+    Percent Capital: 1.0316, interval: [1.0000, 1.0326]
+    Action taked by itseft: SELL: 20, HOLD: 63, BUY: 17
+Step 800:
+    Percent Capital: 1.0320, interval: [1.0000, 1.0352]
+    Action taked by itseft: SELL: 16, HOLD: 68, BUY: 16
+Step 900:
+    Percent Capital: 1.0305, interval: [1.0000, 1.0352]
+    Action taked by itseft: SELL: 11, HOLD: 84, BUY: 5
+Step 1000:
+    Percent Capital: 1.0236, interval: [1.0000, 1.0352]
+    Action taked by itseft: SELL: 20, HOLD: 57, BUY: 23
+Step 1100:
+    Percent Capital: 1.0214, interval: [1.0000, 1.0352]
+    Action taked by itseft: SELL: 7, HOLD: 91, BUY: 2
+Step 1200:
+    Percent Capital: 0.9976, interval: [0.9961, 1.0352]
+    Action taked by itseft: SELL: 11, HOLD: 44, BUY: 45
+Step 1300:
+    Percent Capital: 1.0112, interval: [0.9961, 1.0352]
+    Action taked by itseft: SELL: 28, HOLD: 30, BUY: 42
+Step 1400:
+    Percent Capital: 1.0057, interval: [0.9961, 1.0352]
+    Action taked by itseft: SELL: 22, HOLD: 42, BUY: 36
+Step 1500:
+    Percent Capital: 0.9988, interval: [0.9961, 1.0352]
+    Action taked by itseft: SELL: 22, HOLD: 48, BUY: 30
+Step 1600:
+    Percent Capital: 0.9977, interval: [0.9961, 1.0352]
+    Action taked by itseft: SELL: 16, HOLD: 46, BUY: 38
+Step 1700:
+    Percent Capital: 1.0005, interval: [0.9961, 1.0352]
+    Action taked by itseft: SELL: 25, HOLD: 43, BUY: 32
+Step 1800:
+    Percent Capital: 1.0087, interval: [0.9961, 1.0352]
+    Action taked by itseft: SELL: 35, HOLD: 34, BUY: 31
+Step 1900:
+    Percent Capital: 1.0068, interval: [0.9961, 1.0352]
+    Action taked by itseft: SELL: 15, HOLD: 57, BUY: 28
+Step 2000:
+    Percent Capital: 1.0083, interval: [0.9961, 1.0352]
+    Action taked by itseft: SELL: 14, HOLD: 68, BUY: 18
+Step 2100:
+    Percent Capital: 1.0048, interval: [0.9961, 1.0352]
+    Action taked by itseft: SELL: 21, HOLD: 68, BUY: 11
+Step 2200:
+    Percent Capital: 1.0006, interval: [0.9961, 1.0352]
+    Action taked by itseft: SELL: 10, HOLD: 83, BUY: 7
+Step 2300:
+    Percent Capital: 1.0066, interval: [0.9961, 1.0352]
+    Action taked by itseft: SELL: 15, HOLD: 74, BUY: 11
+Step 2400:
+    Percent Capital: 1.0056, interval: [0.9961, 1.0352]
+    Action taked by itseft: SELL: 6, HOLD: 91, BUY: 3
+Step 2500:
+    Percent Capital: 1.0048, interval: [0.9961, 1.0352]
+    Action taked by itseft: SELL: 8, HOLD: 91, BUY: 1
+Step 2600:
+    Percent Capital: 1.0048, interval: [0.9961, 1.0352]
+    Action taked by itseft: SELL: 11, HOLD: 77, BUY: 12
+Step 2700:
+    Percent Capital: 1.0105, interval: [0.9961, 1.0352]
+    Action taked by itseft: SELL: 14, HOLD: 75, BUY: 11
+Step 2800:
+    Percent Capital: 1.0001, interval: [0.9961, 1.0352]
+    Action taked by itseft: SELL: 19, HOLD: 59, BUY: 22
+Step 2900:
+    Percent Capital: 0.9928, interval: [0.9928, 1.0352]
+    Action taked by itseft: SELL: 14, HOLD: 47, BUY: 39
+Step 3000:
+    Percent Capital: 0.9932, interval: [0.9884, 1.0352]
+    Action taked by itseft: SELL: 19, HOLD: 55, BUY: 26
+Step 3100:
+    Percent Capital: 0.9847, interval: [0.9847, 1.0352]
+    Action taked by itseft: SELL: 29, HOLD: 37, BUY: 34
+Step 3200:
+    Percent Capital: 0.9806, interval: [0.9796, 1.0352]
+    Action taked by itseft: SELL: 19, HOLD: 62, BUY: 19
+Step 3300:
+    Percent Capital: 0.9833, interval: [0.9789, 1.0352]
+    Action taked by itseft: SELL: 15, HOLD: 73, BUY: 12
+Step 3400:
+    Percent Capital: 0.9894, interval: [0.9789, 1.0352]
+    Action taked by itseft: SELL: 13, HOLD: 72, BUY: 15
+Step 3500:
+    Percent Capital: 0.9917, interval: [0.9789, 1.0352]
+    Action taked by itseft: SELL: 11, HOLD: 76, BUY: 13
+Step 3600:
+    Percent Capital: 0.9825, interval: [0.9789, 1.0352]
+    Action taked by itseft: SELL: 25, HOLD: 59, BUY: 16
+Step 3700:
+    Percent Capital: 0.9809, interval: [0.9789, 1.0352]
+    Action taked by itseft: SELL: 11, HOLD: 84, BUY: 5
+Step 3800:
+    Percent Capital: 0.9795, interval: [0.9789, 1.0352]
+    Action taked by itseft: SELL: 8, HOLD: 89, BUY: 3
+Step 3900:
+    Percent Capital: 0.9708, interval: [0.9708, 1.0352]
+    Action taked by itseft: SELL: 6, HOLD: 81, BUY: 13
+Step 4000:
+    Percent Capital: 0.9756, interval: [0.9708, 1.0352]
+    Action taked by itseft: SELL: 19, HOLD: 65, BUY: 16
+Step 4100:
+    Percent Capital: 0.9806, interval: [0.9708, 1.0352]
+    Action taked by itseft: SELL: 15, HOLD: 70, BUY: 15
+Step 4200:
+    Percent Capital: 0.9810, interval: [0.9708, 1.0352]
+    Action taked by itseft: SELL: 7, HOLD: 87, BUY: 6
+Step 4300:
+    Percent Capital: 0.9924, interval: [0.9708, 1.0352]
+    Action taked by itseft: SELL: 9, HOLD: 68, BUY: 23
+Step 4400:
+    Percent Capital: 0.9992, interval: [0.9708, 1.0352]
+    Action taked by itseft: SELL: 15, HOLD: 58, BUY: 27
+Step 4500:
+    Percent Capital: 1.0039, interval: [0.9708, 1.0352]
+    Action taked by itseft: SELL: 22, HOLD: 48, BUY: 30
+Step 4600:
+    Percent Capital: 0.9965, interval: [0.9708, 1.0352]
+    Action taked by itseft: SELL: 21, HOLD: 60, BUY: 19
+Step 4700:
+    Percent Capital: 1.0053, interval: [0.9708, 1.0352]
+    Action taked by itseft: SELL: 16, HOLD: 69, BUY: 15
+Step 4800:
+    Percent Capital: 1.0110, interval: [0.9708, 1.0352]
+    Action taked by itseft: SELL: 13, HOLD: 70, BUY: 17
+Step 4900:
+    Percent Capital: 1.0117, interval: [0.9708, 1.0352]
+    Action taked by itseft: SELL: 16, HOLD: 69, BUY: 15
+Step 5000:
+    Percent Capital: 1.0068, interval: [0.9708, 1.0352]
+    Action taked by itseft: SELL: 21, HOLD: 66, BUY: 13
+Step 5100:
+    Percent Capital: 1.0053, interval: [0.9708, 1.0352]
+    Action taked by itseft: SELL: 14, HOLD: 69, BUY: 17
+Step 5200:
+    Percent Capital: 1.0098, interval: [0.9708, 1.0352]
+    Action taked by itseft: SELL: 15, HOLD: 80, BUY: 5
+Step 5300:
+    Percent Capital: 1.0099, interval: [0.9708, 1.0352]
+    Action taked by itseft: SELL: 8, HOLD: 88, BUY: 4
+Step 5400:
+    Percent Capital: 1.0133, interval: [0.9708, 1.0352]
+    Action taked by itseft: SELL: 11, HOLD: 84, BUY: 5
+Step 5500:
+    Percent Capital: 1.0239, interval: [0.9708, 1.0352]
+    Action taked by itseft: SELL: 17, HOLD: 64, BUY: 19
+Step 5600:
+    Percent Capital: 1.0170, interval: [0.9708, 1.0352]
+    Action taked by itseft: SELL: 31, HOLD: 43, BUY: 26
+Step 5700:
+    Percent Capital: 1.0183, interval: [0.9708, 1.0352]
+    Action taked by itseft: SELL: 19, HOLD: 69, BUY: 12
+Step 5800:
+    Percent Capital: 1.0232, interval: [0.9708, 1.0352]
+    Action taked by itseft: SELL: 23, HOLD: 64, BUY: 13
+Step 5900:
+    Percent Capital: 1.0239, interval: [0.9708, 1.0352]
+    Action taked by itseft: SELL: 9, HOLD: 84, BUY: 7
+Step 6000:
+    Percent Capital: 1.0161, interval: [0.9708, 1.0352]
+    Action taked by itseft: SELL: 20, HOLD: 48, BUY: 32
+Step 6100:
+    Percent Capital: 1.0133, interval: [0.9708, 1.0352]
+    Action taked by itseft: SELL: 21, HOLD: 71, BUY: 8
+Step 6200:
+    Percent Capital: 1.0162, interval: [0.9708, 1.0352]
+    Action taked by itseft: SELL: 17, HOLD: 62, BUY: 21
+Step 6300:
+    Percent Capital: 1.0156, interval: [0.9708, 1.0352]
+    Action taked by itseft: SELL: 13, HOLD: 60, BUY: 27
+Step 6400:
+    Percent Capital: 1.0176, interval: [0.9708, 1.0352]
+    Action taked by itseft: SELL: 14, HOLD: 73, BUY: 13
+Step 6500:
+    Percent Capital: 1.0143, interval: [0.9708, 1.0352]
+    Action taked by itseft: SELL: 7, HOLD: 91, BUY: 2
+Step 6600:
+    Percent Capital: 1.0093, interval: [0.9708, 1.0352]
+    Action taked by itseft: SELL: 16, HOLD: 80, BUY: 4
+Step 6700:
+    Percent Capital: 1.0046, interval: [0.9708, 1.0352]
+    Action taked by itseft: SELL: 4, HOLD: 89, BUY: 7
+Step 6800:
+    Percent Capital: 1.0008, interval: [0.9708, 1.0352]
+    Action taked by itseft: SELL: 14, HOLD: 79, BUY: 7
+Step 6900:
+    Percent Capital: 1.0003, interval: [0.9708, 1.0352]
+    Action taked by itseft: SELL: 2, HOLD: 97, BUY: 1
+Step 7000:
+    Percent Capital: 1.0052, interval: [0.9708, 1.0352]
+    Action taked by itseft: SELL: 7, HOLD: 85, BUY: 8
+Step 7100:
+    Percent Capital: 1.0026, interval: [0.9708, 1.0352]
+    Action taked by itseft: SELL: 3, HOLD: 95, BUY: 2
+Step 7200:
+    Percent Capital: 0.9989, interval: [0.9708, 1.0352]
+    Action taked by itseft: SELL: 6, HOLD: 93, BUY: 1
+Step 7300:
+    Percent Capital: 1.0064, interval: [0.9708, 1.0352]
+    Action taked by itseft: SELL: 12, HOLD: 78, BUY: 10
+Step 7400:
+    Percent Capital: 0.9977, interval: [0.9708, 1.0352]
+    Action taked by itseft: SELL: 12, HOLD: 79, BUY: 9
+Step 7500:
+    Percent Capital: 0.9973, interval: [0.9708, 1.0352]
+    Action taked by itseft: SELL: 11, HOLD: 84, BUY: 5
+Step 7600:
+    Percent Capital: 0.9979, interval: [0.9708, 1.0352]
+    Action taked by itseft: SELL: 16, HOLD: 74, BUY: 10
+Step 7700:
+    Percent Capital: 1.0006, interval: [0.9708, 1.0352]
+    Action taked by itseft: SELL: 6, HOLD: 92, BUY: 2
+Step 7800:
+    Percent Capital: 0.9985, interval: [0.9708, 1.0352]
+    Action taked by itseft: SELL: 4, HOLD: 93, BUY: 3
+Step 7900:
+    Percent Capital: 0.9989, interval: [0.9708, 1.0352]
+    Action taked by itseft: SELL: 8, HOLD: 90, BUY: 2
+Step 8000:
+    Percent Capital: 1.0144, interval: [0.9708, 1.0352]
+    Action taked by itseft: SELL: 20, HOLD: 34, BUY: 46
+Step 8100:
+    Percent Capital: 1.0120, interval: [0.9708, 1.0352]
+    Action taked by itseft: SELL: 18, HOLD: 59, BUY: 23
+Step 8200:
+    Percent Capital: 1.0108, interval: [0.9708, 1.0352]
+    Action taked by itseft: SELL: 7, HOLD: 88, BUY: 5
+Step 8300:
+    Percent Capital: 1.0040, interval: [0.9708, 1.0352]
+    Action taked by itseft: SELL: 11, HOLD: 79, BUY: 10
+Step 8400:
+    Percent Capital: 1.0069, interval: [0.9708, 1.0352]
+    Action taked by itseft: SELL: 9, HOLD: 79, BUY: 12
+Episode 7/10 ended
+
+Step 0:
+    Percent Capital: 1.0000, interval: [1.0000, 1.0000]
+    Action taked by itseft: SELL: 23, HOLD: 54, BUY: 23
+Step 100:
+    Percent Capital: 0.9912, interval: [0.9912, 1.0000]
+    Action taked by itseft: SELL: 16, HOLD: 68, BUY: 16
+Step 200:
+    Percent Capital: 0.9911, interval: [0.9867, 1.0000]
+    Action taked by itseft: SELL: 19, HOLD: 64, BUY: 17
+Step 300:
+    Percent Capital: 0.9874, interval: [0.9867, 1.0000]
+    Action taked by itseft: SELL: 19, HOLD: 62, BUY: 19
+Step 400:
+    Percent Capital: 0.9874, interval: [0.9848, 1.0000]
+    Action taked by itseft: SELL: 35, HOLD: 21, BUY: 44
+Step 500:
+    Percent Capital: 0.9965, interval: [0.9848, 1.0000]
+    Action taked by itseft: SELL: 24, HOLD: 31, BUY: 45
+Step 600:
+    Percent Capital: 0.9998, interval: [0.9848, 1.0014]
+    Action taked by itseft: SELL: 20, HOLD: 69, BUY: 11
+Step 700:
+    Percent Capital: 0.9927, interval: [0.9848, 1.0014]
+    Action taked by itseft: SELL: 21, HOLD: 59, BUY: 20
+Step 800:
+    Percent Capital: 0.9942, interval: [0.9848, 1.0014]
+    Action taked by itseft: SELL: 38, HOLD: 18, BUY: 44
+Step 900:
+    Percent Capital: 0.9862, interval: [0.9848, 1.0014]
+    Action taked by itseft: SELL: 36, HOLD: 51, BUY: 13
+Step 1000:
+    Percent Capital: 0.9990, interval: [0.9848, 1.0014]
+    Action taked by itseft: SELL: 20, HOLD: 67, BUY: 13
+Step 1100:
+    Percent Capital: 0.9955, interval: [0.9848, 1.0014]
+    Action taked by itseft: SELL: 18, HOLD: 78, BUY: 4
+Step 1200:
+    Percent Capital: 0.9920, interval: [0.9848, 1.0014]
+    Action taked by itseft: SELL: 25, HOLD: 68, BUY: 7
+Step 1300:
+    Percent Capital: 0.9949, interval: [0.9848, 1.0014]
+    Action taked by itseft: SELL: 20, HOLD: 70, BUY: 10
+Step 1400:
+    Percent Capital: 0.9981, interval: [0.9848, 1.0014]
+    Action taked by itseft: SELL: 18, HOLD: 60, BUY: 22
+Step 1500:
+    Percent Capital: 0.9958, interval: [0.9848, 1.0014]
+    Action taked by itseft: SELL: 27, HOLD: 55, BUY: 18
+Step 1600:
+    Percent Capital: 0.9968, interval: [0.9848, 1.0014]
+    Action taked by itseft: SELL: 24, HOLD: 47, BUY: 29
+Step 1700:
+    Percent Capital: 0.9870, interval: [0.9848, 1.0014]
+    Action taked by itseft: SELL: 24, HOLD: 61, BUY: 15
+Step 1800:
+    Percent Capital: 0.9872, interval: [0.9819, 1.0014]
+    Action taked by itseft: SELL: 18, HOLD: 49, BUY: 33
+Step 1900:
+    Percent Capital: 0.9881, interval: [0.9819, 1.0014]
+    Action taked by itseft: SELL: 25, HOLD: 34, BUY: 41
+Step 2000:
+    Percent Capital: 0.9950, interval: [0.9819, 1.0014]
+    Action taked by itseft: SELL: 18, HOLD: 60, BUY: 22
+Step 2100:
+    Percent Capital: 1.0091, interval: [0.9819, 1.0091]
+    Action taked by itseft: SELL: 19, HOLD: 26, BUY: 55
+Step 2200:
+    Percent Capital: 1.0130, interval: [0.9819, 1.0186]
+    Action taked by itseft: SELL: 14, HOLD: 12, BUY: 74
+Step 2300:
+    Percent Capital: 1.0106, interval: [0.9819, 1.0186]
+    Action taked by itseft: SELL: 29, HOLD: 40, BUY: 31
+Step 2400:
+    Percent Capital: 1.0056, interval: [0.9819, 1.0186]
+    Action taked by itseft: SELL: 24, HOLD: 61, BUY: 15
+Step 2500:
+    Percent Capital: 1.0048, interval: [0.9819, 1.0186]
+    Action taked by itseft: SELL: 23, HOLD: 54, BUY: 23
+Step 2600:
+    Percent Capital: 1.0100, interval: [0.9819, 1.0186]
+    Action taked by itseft: SELL: 10, HOLD: 79, BUY: 11
+Step 2700:
+    Percent Capital: 1.0155, interval: [0.9819, 1.0217]
+    Action taked by itseft: SELL: 7, HOLD: 80, BUY: 13
+Step 2800:
+    Percent Capital: 1.0089, interval: [0.9819, 1.0217]
+    Action taked by itseft: SELL: 14, HOLD: 75, BUY: 11
+Step 2900:
+    Percent Capital: 0.9945, interval: [0.9819, 1.0217]
+    Action taked by itseft: SELL: 23, HOLD: 36, BUY: 41
+Step 3000:
+    Percent Capital: 0.9987, interval: [0.9819, 1.0217]
+    Action taked by itseft: SELL: 20, HOLD: 56, BUY: 24
+Step 3100:
+    Percent Capital: 1.0043, interval: [0.9819, 1.0217]
+    Action taked by itseft: SELL: 15, HOLD: 66, BUY: 19
+Step 3200:
+    Percent Capital: 1.0048, interval: [0.9819, 1.0217]
+    Action taked by itseft: SELL: 23, HOLD: 50, BUY: 27
+Step 3300:
+    Percent Capital: 1.0024, interval: [0.9819, 1.0217]
+    Action taked by itseft: SELL: 19, HOLD: 41, BUY: 40
+Step 3400:
+    Percent Capital: 1.0008, interval: [0.9819, 1.0217]
+    Action taked by itseft: SELL: 20, HOLD: 40, BUY: 40
+Step 3500:
+    Percent Capital: 1.0137, interval: [0.9819, 1.0217]
+    Action taked by itseft: SELL: 19, HOLD: 38, BUY: 43
+Step 3600:
+    Percent Capital: 1.0157, interval: [0.9819, 1.0217]
+    Action taked by itseft: SELL: 28, HOLD: 51, BUY: 21
+Step 3700:
+    Percent Capital: 1.0130, interval: [0.9819, 1.0217]
+    Action taked by itseft: SELL: 12, HOLD: 69, BUY: 19
+Step 3800:
+    Percent Capital: 1.0018, interval: [0.9819, 1.0217]
+    Action taked by itseft: SELL: 17, HOLD: 43, BUY: 40
+Step 3900:
+    Percent Capital: 0.9998, interval: [0.9819, 1.0217]
+    Action taked by itseft: SELL: 16, HOLD: 60, BUY: 24
+Step 4000:
+    Percent Capital: 1.0033, interval: [0.9819, 1.0217]
+    Action taked by itseft: SELL: 9, HOLD: 77, BUY: 14
+Step 4100:
+    Percent Capital: 1.0029, interval: [0.9819, 1.0217]
+    Action taked by itseft: SELL: 12, HOLD: 73, BUY: 15
+Step 4200:
+    Percent Capital: 1.0060, interval: [0.9819, 1.0217]
+    Action taked by itseft: SELL: 8, HOLD: 84, BUY: 8
+Step 4300:
+    Percent Capital: 1.0073, interval: [0.9819, 1.0217]
+    Action taked by itseft: SELL: 12, HOLD: 50, BUY: 38
+Step 4400:
+    Percent Capital: 1.0076, interval: [0.9819, 1.0217]
+    Action taked by itseft: SELL: 18, HOLD: 54, BUY: 28
+Step 4500:
+    Percent Capital: 1.0158, interval: [0.9819, 1.0217]
+    Action taked by itseft: SELL: 8, HOLD: 75, BUY: 17
+Step 4600:
+    Percent Capital: 1.0081, interval: [0.9819, 1.0217]
+    Action taked by itseft: SELL: 20, HOLD: 47, BUY: 33
+Step 4700:
+    Percent Capital: 1.0120, interval: [0.9819, 1.0217]
+    Action taked by itseft: SELL: 30, HOLD: 42, BUY: 28
+Step 4800:
+    Percent Capital: 1.0183, interval: [0.9819, 1.0217]
+    Action taked by itseft: SELL: 22, HOLD: 35, BUY: 43
+Step 4900:
+    Percent Capital: 1.0110, interval: [0.9819, 1.0217]
+    Action taked by itseft: SELL: 14, HOLD: 66, BUY: 20
+Step 5000:
+    Percent Capital: 1.0215, interval: [0.9819, 1.0220]
+    Action taked by itseft: SELL: 20, HOLD: 38, BUY: 42
+Step 5100:
+    Percent Capital: 1.0284, interval: [0.9819, 1.0297]
+    Action taked by itseft: SELL: 24, HOLD: 50, BUY: 26
+Step 5200:
+    Percent Capital: 1.0251, interval: [0.9819, 1.0297]
+    Action taked by itseft: SELL: 10, HOLD: 68, BUY: 22
+Step 5300:
+    Percent Capital: 1.0275, interval: [0.9819, 1.0297]
+    Action taked by itseft: SELL: 9, HOLD: 80, BUY: 11
+Step 5400:
+    Percent Capital: 1.0380, interval: [0.9819, 1.0386]
+    Action taked by itseft: SELL: 25, HOLD: 45, BUY: 30
+Step 5500:
+    Percent Capital: 1.0399, interval: [0.9819, 1.0423]
+    Action taked by itseft: SELL: 28, HOLD: 60, BUY: 12
+Step 5600:
+    Percent Capital: 1.0383, interval: [0.9819, 1.0432]
+    Action taked by itseft: SELL: 33, HOLD: 57, BUY: 10
+Step 5700:
+    Percent Capital: 1.0322, interval: [0.9819, 1.0432]
+    Action taked by itseft: SELL: 26, HOLD: 55, BUY: 19
+Step 5800:
+    Percent Capital: 1.0647, interval: [0.9819, 1.0647]
+    Action taked by itseft: SELL: 10, HOLD: 12, BUY: 78
+Step 5900:
+    Percent Capital: 1.0692, interval: [0.9819, 1.0721]
+    Action taked by itseft: SELL: 20, HOLD: 13, BUY: 67
+Step 6000:
+    Percent Capital: 1.0938, interval: [0.9819, 1.0940]
+    Action taked by itseft: SELL: 19, HOLD: 17, BUY: 64
+Step 6100:
+    Percent Capital: 1.0926, interval: [0.9819, 1.0940]
+    Action taked by itseft: SELL: 20, HOLD: 22, BUY: 58
+Step 6200:
+    Percent Capital: 1.0980, interval: [0.9819, 1.0980]
+    Action taked by itseft: SELL: 20, HOLD: 38, BUY: 42
+Step 6300:
+    Percent Capital: 1.1003, interval: [0.9819, 1.1139]
+    Action taked by itseft: SELL: 19, HOLD: 13, BUY: 68
+Step 6400:
+    Percent Capital: 1.1041, interval: [0.9819, 1.1139]
+    Action taked by itseft: SELL: 26, HOLD: 28, BUY: 46
+Step 6500:
+    Percent Capital: 1.1032, interval: [0.9819, 1.1139]
+    Action taked by itseft: SELL: 23, HOLD: 44, BUY: 33
+Step 6600:
+    Percent Capital: 1.1048, interval: [0.9819, 1.1139]
+    Action taked by itseft: SELL: 24, HOLD: 59, BUY: 17
+Step 6700:
+    Percent Capital: 1.1147, interval: [0.9819, 1.1147]
+    Action taked by itseft: SELL: 24, HOLD: 38, BUY: 38
+Step 6800:
+    Percent Capital: 1.1203, interval: [0.9819, 1.1206]
+    Action taked by itseft: SELL: 21, HOLD: 32, BUY: 47
+Step 6900:
+    Percent Capital: 1.1394, interval: [0.9819, 1.1402]
+    Action taked by itseft: SELL: 16, HOLD: 8, BUY: 76
+Step 7000:
+    Percent Capital: 1.1649, interval: [0.9819, 1.1649]
+    Action taked by itseft: SELL: 20, HOLD: 20, BUY: 60
+Step 7100:
+    Percent Capital: 1.1435, interval: [0.9819, 1.1675]
+    Action taked by itseft: SELL: 9, HOLD: 13, BUY: 78
+Step 7200:
+    Percent Capital: 1.1620, interval: [0.9819, 1.1675]
+    Action taked by itseft: SELL: 23, HOLD: 4, BUY: 73
+Step 7300:
+    Percent Capital: 1.1680, interval: [0.9819, 1.1709]
+    Action taked by itseft: SELL: 30, HOLD: 20, BUY: 50
+Step 7400:
+    Percent Capital: 1.1675, interval: [0.9819, 1.1709]
+    Action taked by itseft: SELL: 28, HOLD: 23, BUY: 49
+Step 7500:
+    Percent Capital: 1.1664, interval: [0.9819, 1.1709]
+    Action taked by itseft: SELL: 22, HOLD: 29, BUY: 49
+Step 7600:
+    Percent Capital: 1.1955, interval: [0.9819, 1.1967]
+    Action taked by itseft: SELL: 24, HOLD: 13, BUY: 63
+Step 7700:
+    Percent Capital: 1.1941, interval: [0.9819, 1.1969]
+    Action taked by itseft: SELL: 29, HOLD: 8, BUY: 63
+Step 7800:
+    Percent Capital: 1.2019, interval: [0.9819, 1.2036]
+    Action taked by itseft: SELL: 22, HOLD: 33, BUY: 45
+Step 7900:
+    Percent Capital: 1.1841, interval: [0.9819, 1.2054]
+    Action taked by itseft: SELL: 23, HOLD: 28, BUY: 49
+Step 8000:
+    Percent Capital: 1.1755, interval: [0.9819, 1.2054]
+    Action taked by itseft: SELL: 28, HOLD: 30, BUY: 42
+Step 8100:
+    Percent Capital: 1.1904, interval: [0.9819, 1.2054]
+    Action taked by itseft: SELL: 16, HOLD: 57, BUY: 27
+Step 8200:
+    Percent Capital: 1.1876, interval: [0.9819, 1.2054]
+    Action taked by itseft: SELL: 18, HOLD: 73, BUY: 9
+Step 8300:
+    Percent Capital: 1.1784, interval: [0.9819, 1.2054]
+    Action taked by itseft: SELL: 15, HOLD: 73, BUY: 12
+Step 8400:
+    Percent Capital: 1.1841, interval: [0.9819, 1.2054]
+    Action taked by itseft: SELL: 19, HOLD: 64, BUY: 17
+Episode 8/10 ended
+
+Step 0:
+    Percent Capital: 1.0000, interval: [1.0000, 1.0000]
+    Action taked by itseft: SELL: 16, HOLD: 74, BUY: 10
+Step 100:
+    Percent Capital: 0.9985, interval: [0.9947, 1.0027]
+    Action taked by itseft: SELL: 16, HOLD: 65, BUY: 19
+Step 200:
+    Percent Capital: 0.9936, interval: [0.9936, 1.0027]
+    Action taked by itseft: SELL: 15, HOLD: 62, BUY: 23
+Step 300:
+    Percent Capital: 0.9995, interval: [0.9936, 1.0027]
+    Action taked by itseft: SELL: 17, HOLD: 67, BUY: 16
+Step 400:
+    Percent Capital: 1.0077, interval: [0.9936, 1.0197]
+    Action taked by itseft: SELL: 27, HOLD: 30, BUY: 43
+Step 500:
+    Percent Capital: 1.0097, interval: [0.9936, 1.0197]
+    Action taked by itseft: SELL: 15, HOLD: 66, BUY: 19
+Step 600:
+    Percent Capital: 1.0072, interval: [0.9936, 1.0197]
+    Action taked by itseft: SELL: 21, HOLD: 41, BUY: 38
+Step 700:
+    Percent Capital: 1.0104, interval: [0.9936, 1.0197]
+    Action taked by itseft: SELL: 29, HOLD: 49, BUY: 22
+Step 800:
+    Percent Capital: 1.0093, interval: [0.9936, 1.0197]
+    Action taked by itseft: SELL: 19, HOLD: 64, BUY: 17
+Step 900:
+    Percent Capital: 1.0062, interval: [0.9936, 1.0197]
+    Action taked by itseft: SELL: 14, HOLD: 77, BUY: 9
+Step 1000:
+    Percent Capital: 1.0052, interval: [0.9936, 1.0197]
+    Action taked by itseft: SELL: 19, HOLD: 67, BUY: 14
+Step 1100:
+    Percent Capital: 1.0156, interval: [0.9936, 1.0197]
+    Action taked by itseft: SELL: 27, HOLD: 39, BUY: 34
+Step 1200:
+    Percent Capital: 1.0225, interval: [0.9936, 1.0261]
+    Action taked by itseft: SELL: 30, HOLD: 47, BUY: 23
+Step 1300:
+    Percent Capital: 1.0253, interval: [0.9936, 1.0266]
+    Action taked by itseft: SELL: 22, HOLD: 68, BUY: 10
+Step 1400:
+    Percent Capital: 1.0198, interval: [0.9936, 1.0327]
+    Action taked by itseft: SELL: 25, HOLD: 53, BUY: 22
+Step 1500:
+    Percent Capital: 1.0215, interval: [0.9936, 1.0327]
+    Action taked by itseft: SELL: 18, HOLD: 76, BUY: 6
+Step 1600:
+    Percent Capital: 1.0055, interval: [0.9936, 1.0351]
+    Action taked by itseft: SELL: 21, HOLD: 35, BUY: 44
+Step 1700:
+    Percent Capital: 0.9831, interval: [0.9831, 1.0351]
+    Action taked by itseft: SELL: 21, HOLD: 33, BUY: 46
+Step 1800:
+    Percent Capital: 0.9780, interval: [0.9780, 1.0351]
+    Action taked by itseft: SELL: 25, HOLD: 40, BUY: 35
+Step 1900:
+    Percent Capital: 0.9853, interval: [0.9754, 1.0351]
+    Action taked by itseft: SELL: 20, HOLD: 52, BUY: 28
+Step 2000:
+    Percent Capital: 0.9764, interval: [0.9754, 1.0351]
+    Action taked by itseft: SELL: 17, HOLD: 69, BUY: 14
+Step 2100:
+    Percent Capital: 0.9844, interval: [0.9754, 1.0351]
+    Action taked by itseft: SELL: 26, HOLD: 51, BUY: 23
+Step 2200:
+    Percent Capital: 0.9862, interval: [0.9754, 1.0351]
+    Action taked by itseft: SELL: 17, HOLD: 73, BUY: 10
+Step 2300:
+    Percent Capital: 0.9922, interval: [0.9754, 1.0351]
+    Action taked by itseft: SELL: 9, HOLD: 79, BUY: 12
+Step 2400:
+    Percent Capital: 0.9963, interval: [0.9754, 1.0351]
+    Action taked by itseft: SELL: 15, HOLD: 73, BUY: 12
+Step 2500:
+    Percent Capital: 1.0092, interval: [0.9754, 1.0351]
+    Action taked by itseft: SELL: 15, HOLD: 47, BUY: 38
+Step 2600:
+    Percent Capital: 1.0087, interval: [0.9754, 1.0351]
+    Action taked by itseft: SELL: 15, HOLD: 73, BUY: 12
+Step 2700:
+    Percent Capital: 1.0041, interval: [0.9754, 1.0351]
+    Action taked by itseft: SELL: 7, HOLD: 85, BUY: 8
+Step 2800:
+    Percent Capital: 0.9981, interval: [0.9754, 1.0351]
+    Action taked by itseft: SELL: 11, HOLD: 75, BUY: 14
+Step 2900:
+    Percent Capital: 1.0055, interval: [0.9754, 1.0351]
+    Action taked by itseft: SELL: 18, HOLD: 71, BUY: 11
+Step 3000:
+    Percent Capital: 0.9878, interval: [0.9754, 1.0351]
+    Action taked by itseft: SELL: 22, HOLD: 56, BUY: 22
+Step 3100:
+    Percent Capital: 0.9750, interval: [0.9725, 1.0351]
+    Action taked by itseft: SELL: 19, HOLD: 52, BUY: 29
+Step 3200:
+    Percent Capital: 0.9674, interval: [0.9674, 1.0351]
+    Action taked by itseft: SELL: 41, HOLD: 35, BUY: 24
+Step 3300:
+    Percent Capital: 0.9762, interval: [0.9674, 1.0351]
+    Action taked by itseft: SELL: 28, HOLD: 46, BUY: 26
+Step 3400:
+    Percent Capital: 0.9761, interval: [0.9674, 1.0351]
+    Action taked by itseft: SELL: 35, HOLD: 38, BUY: 27
+Step 3500:
+    Percent Capital: 0.9702, interval: [0.9674, 1.0351]
+    Action taked by itseft: SELL: 24, HOLD: 64, BUY: 12
+Step 3600:
+    Percent Capital: 0.9712, interval: [0.9674, 1.0351]
+    Action taked by itseft: SELL: 34, HOLD: 48, BUY: 18
+Step 3700:
+    Percent Capital: 0.9659, interval: [0.9649, 1.0351]
+    Action taked by itseft: SELL: 21, HOLD: 55, BUY: 24
+Step 3800:
+    Percent Capital: 0.9619, interval: [0.9619, 1.0351]
+    Action taked by itseft: SELL: 34, HOLD: 33, BUY: 33
+Step 3900:
+    Percent Capital: 0.9644, interval: [0.9571, 1.0351]
+    Action taked by itseft: SELL: 28, HOLD: 51, BUY: 21
+Step 4000:
+    Percent Capital: 0.9673, interval: [0.9571, 1.0351]
+    Action taked by itseft: SELL: 20, HOLD: 50, BUY: 30
+Step 4100:
+    Percent Capital: 0.9529, interval: [0.9521, 1.0351]
+    Action taked by itseft: SELL: 13, HOLD: 59, BUY: 28
+Step 4200:
+    Percent Capital: 0.9623, interval: [0.9521, 1.0351]
+    Action taked by itseft: SELL: 13, HOLD: 73, BUY: 14
+Step 4300:
+    Percent Capital: 0.9613, interval: [0.9521, 1.0351]
+    Action taked by itseft: SELL: 7, HOLD: 79, BUY: 14
+Step 4400:
+    Percent Capital: 0.9626, interval: [0.9521, 1.0351]
+    Action taked by itseft: SELL: 18, HOLD: 68, BUY: 14
+Step 4500:
+    Percent Capital: 0.9646, interval: [0.9521, 1.0351]
+    Action taked by itseft: SELL: 17, HOLD: 72, BUY: 11
+Step 4600:
+    Percent Capital: 0.9654, interval: [0.9521, 1.0351]
+    Action taked by itseft: SELL: 19, HOLD: 76, BUY: 5
+Step 4700:
+    Percent Capital: 0.9704, interval: [0.9521, 1.0351]
+    Action taked by itseft: SELL: 17, HOLD: 47, BUY: 36
+Step 4800:
+    Percent Capital: 0.9773, interval: [0.9521, 1.0351]
+    Action taked by itseft: SELL: 16, HOLD: 24, BUY: 60
+Step 4900:
+    Percent Capital: 0.9733, interval: [0.9521, 1.0351]
+    Action taked by itseft: SELL: 29, HOLD: 46, BUY: 25
+Step 5000:
+    Percent Capital: 0.9739, interval: [0.9521, 1.0351]
+    Action taked by itseft: SELL: 23, HOLD: 56, BUY: 21
+Step 5100:
+    Percent Capital: 0.9742, interval: [0.9521, 1.0351]
+    Action taked by itseft: SELL: 16, HOLD: 64, BUY: 20
+Step 5200:
+    Percent Capital: 0.9702, interval: [0.9521, 1.0351]
+    Action taked by itseft: SELL: 17, HOLD: 66, BUY: 17
+Step 5300:
+    Percent Capital: 0.9718, interval: [0.9521, 1.0351]
+    Action taked by itseft: SELL: 22, HOLD: 58, BUY: 20
+Step 5400:
+    Percent Capital: 0.9765, interval: [0.9521, 1.0351]
+    Action taked by itseft: SELL: 9, HOLD: 77, BUY: 14
+Step 5500:
+    Percent Capital: 0.9830, interval: [0.9521, 1.0351]
+    Action taked by itseft: SELL: 21, HOLD: 52, BUY: 27
+Step 5600:
+    Percent Capital: 0.9784, interval: [0.9521, 1.0351]
+    Action taked by itseft: SELL: 21, HOLD: 55, BUY: 24
+Step 5700:
+    Percent Capital: 0.9773, interval: [0.9521, 1.0351]
+    Action taked by itseft: SELL: 29, HOLD: 60, BUY: 11
+Step 5800:
+    Percent Capital: 0.9717, interval: [0.9521, 1.0351]
+    Action taked by itseft: SELL: 17, HOLD: 51, BUY: 32
+Step 5900:
+    Percent Capital: 0.9663, interval: [0.9521, 1.0351]
+    Action taked by itseft: SELL: 29, HOLD: 20, BUY: 51
+Step 6000:
+    Percent Capital: 0.9530, interval: [0.9521, 1.0351]
+    Action taked by itseft: SELL: 27, HOLD: 42, BUY: 31
+Step 6100:
+    Percent Capital: 0.9712, interval: [0.9521, 1.0351]
+    Action taked by itseft: SELL: 28, HOLD: 37, BUY: 35
+Step 6200:
+    Percent Capital: 0.9709, interval: [0.9521, 1.0351]
+    Action taked by itseft: SELL: 20, HOLD: 36, BUY: 44
+Step 6300:
+    Percent Capital: 0.9621, interval: [0.9442, 1.0351]
+    Action taked by itseft: SELL: 17, HOLD: 10, BUY: 73
+Step 6400:
+    Percent Capital: 0.9776, interval: [0.9442, 1.0351]
+    Action taked by itseft: SELL: 22, HOLD: 15, BUY: 63
+Step 6500:
+    Percent Capital: 0.9966, interval: [0.9442, 1.0351]
+    Action taked by itseft: SELL: 34, HOLD: 22, BUY: 44
+Step 6600:
+    Percent Capital: 0.9913, interval: [0.9442, 1.0351]
+    Action taked by itseft: SELL: 30, HOLD: 41, BUY: 29
+Step 6700:
+    Percent Capital: 1.0018, interval: [0.9442, 1.0351]
+    Action taked by itseft: SELL: 25, HOLD: 35, BUY: 40
+Step 6800:
+    Percent Capital: 1.0056, interval: [0.9442, 1.0351]
+    Action taked by itseft: SELL: 27, HOLD: 40, BUY: 33
+Step 6900:
+    Percent Capital: 0.9861, interval: [0.9442, 1.0351]
+    Action taked by itseft: SELL: 31, HOLD: 43, BUY: 26
+Step 7000:
+    Percent Capital: 0.9947, interval: [0.9442, 1.0351]
+    Action taked by itseft: SELL: 22, HOLD: 55, BUY: 23
+Step 7100:
+    Percent Capital: 0.9863, interval: [0.9442, 1.0351]
+    Action taked by itseft: SELL: 27, HOLD: 63, BUY: 10
+Step 7200:
+    Percent Capital: 0.9867, interval: [0.9442, 1.0351]
+    Action taked by itseft: SELL: 21, HOLD: 64, BUY: 15
+Step 7300:
+    Percent Capital: 0.9964, interval: [0.9442, 1.0351]
+    Action taked by itseft: SELL: 26, HOLD: 53, BUY: 21
+Step 7400:
+    Percent Capital: 0.9999, interval: [0.9442, 1.0351]
+    Action taked by itseft: SELL: 25, HOLD: 59, BUY: 16
+Step 7500:
+    Percent Capital: 0.9925, interval: [0.9442, 1.0351]
+    Action taked by itseft: SELL: 32, HOLD: 37, BUY: 31
+Step 7600:
+    Percent Capital: 0.9835, interval: [0.9442, 1.0351]
+    Action taked by itseft: SELL: 28, HOLD: 47, BUY: 25
+Step 7700:
+    Percent Capital: 0.9864, interval: [0.9442, 1.0351]
+    Action taked by itseft: SELL: 34, HOLD: 35, BUY: 31
+Step 7800:
+    Percent Capital: 0.9929, interval: [0.9442, 1.0351]
+    Action taked by itseft: SELL: 24, HOLD: 42, BUY: 34
+Step 7900:
+    Percent Capital: 0.9693, interval: [0.9442, 1.0351]
+    Action taked by itseft: SELL: 38, HOLD: 36, BUY: 26
+Step 8000:
+    Percent Capital: 0.9691, interval: [0.9442, 1.0351]
+    Action taked by itseft: SELL: 31, HOLD: 59, BUY: 10
+Step 8100:
+    Percent Capital: 0.9718, interval: [0.9442, 1.0351]
+    Action taked by itseft: SELL: 36, HOLD: 40, BUY: 24
+Step 8200:
+    Percent Capital: 0.9710, interval: [0.9442, 1.0351]
+    Action taked by itseft: SELL: 21, HOLD: 60, BUY: 19
+Step 8300:
+    Percent Capital: 0.9717, interval: [0.9442, 1.0351]
+    Action taked by itseft: SELL: 14, HOLD: 80, BUY: 6
+Step 8400:
+    Percent Capital: 0.9712, interval: [0.9442, 1.0351]
+    Action taked by itseft: SELL: 11, HOLD: 87, BUY: 2
+Episode 9/10 ended
+

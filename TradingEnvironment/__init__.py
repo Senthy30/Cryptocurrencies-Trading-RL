@@ -2,9 +2,11 @@ import numpy as np
 from Dataset import BitcoinData
 
 class TradingEnvironment():
-
+    #pentru antrenament
     NUM_OBSERVATIONS = 1000
-    #NUM_OBSERVATIONS = 100
+    
+    #pentru test
+    # NUM_OBSERVATIONS = 8500
 
     # ACTIONS
     ACTION_SELL = -1
@@ -335,3 +337,4 @@ class TradingEnvironment():
     
     def get_observation_space(self):
         return self.observation_space.shape[0]
+    
