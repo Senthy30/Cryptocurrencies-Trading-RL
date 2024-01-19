@@ -1,4 +1,3 @@
-from .DDQN import DDQN
-from .DQN import DQN
+from .DoubleDQN import DoubleDQN
 from .config import ConfigModel
 from .Memory import Memory

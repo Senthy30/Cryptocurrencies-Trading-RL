@@ -2,22 +2,22 @@ import numpy as np
 import random
 import os
 from .Memory import Memory
+import tensorflow as tf
 
 class ConfigModel():
-
-    GAMMA = 0.99
-    LEARNING_RATE = 2e-4
+    GAMMA = 0.98
+    LEARNING_RATE = 0.001
 
     MEMORY_SIZE = 1000000
 
     EXPLORATION_MAX = 1.0
-    EXPLORATION_MIN = 0.01
-    EXPLORATION_DECAY = 0.999
+    EXPLORATION_MIN = 0.001
+    EXPLORATION_DECAY = 0.99
 
     BATCH_SIZE = 64
-    EPOCHS = 50
+    EPOCHS = 40
 
-    LEARN_EVERY = 1
+    LEARN_EVERY = 2
 
     MEMORY_FILENAME = "Memory"
     LAST_VERSIONS_FILENAME = "Last Versions"
@@ -86,7 +86,7 @@ class ConfigModel():
             )
         
         self.model_num_save += 1
-        self.model.save(os.path.join(self.model_path, f"Model {self.model_num_save}.keras"))
+        self.q_net.save(os.path.join(self.model_path, f"Model {self.model_num_save}.keras"))
 
         path_to_memory = os.path.join(self.model_path, self.MEMORY_FILENAME)
         for file in os.listdir(path_to_memory):
